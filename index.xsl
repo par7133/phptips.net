@@ -91,6 +91,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 			    <div>
             <xsl:attribute name="id"><xsl:value-of select="ID"/></xsl:attribute>
+            <xsl:attribute name="style">padding:10px;</xsl:attribute>
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
