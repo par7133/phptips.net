@@ -43,11 +43,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <BODY>
 <![CDATA[
 It is good practice to separate the location of the resources managed
-by the web server from the all the other scripts .php, .inc or whatever
-that can remain private to the application.<br/>
+by the web server from all the other scripts .php, .inc or whatever
+that can remain private to the application.<br>
 Basically, you can quitely set a Public dir with your php router (usually
 the index.php file) and the static content of your web app while in the Private 
-dir you will set all the rest of the web app, that you will go to include through
+dir you will set all the rest of the web app, you will go to include through
 the router or other mechanism.
 ]]>
     </BODY>  
