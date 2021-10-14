@@ -123,7 +123,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <xsl:attribute name="target">_self</xsl:attribute> 
               <xsl:attribute name="class">aaa2</xsl:attribute>
               <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
-              < ><xsl:value-of select="TITLE"/>
+              &lt; &gt;<xsl:value-of select="TITLE"/>
             </a>
           </div>
 
