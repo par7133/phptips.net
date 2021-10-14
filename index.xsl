@@ -131,9 +131,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
-            <span style="font-size:16px; font-weight:900; color:red;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</span>&#8201;<span style="font-size:16px; font-weight:900;"><xsl:value-of select="TITLE"/></span>
+            <span style="font-size:16px; font-weight:900; color:#31bc31;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</span>&#8201;<span style="font-size:16px; font-weight:900;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
-            <xsl:value-of select="BODY"/><br/><br/>
+            <pre><xsl:value-of select="BODY"/></pre>
+            <br/><br/>
           </div>
 		
 	      	</xsl:for-each>
