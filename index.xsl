@@ -66,7 +66,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		  <tr>
 		    <td width="70%" height="100%" align="center" style="border-right: 4px solid lightgray;">
           
-          <xsl:for-each select="ITEM[TYPE='mytip']">
+          <xsl:for-each select="ITEM[TYPE='tip']">
 		
 			    <xsl:sort select="INDEX" data-type="number" order="ascending"/>
 		
