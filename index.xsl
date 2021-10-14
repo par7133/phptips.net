@@ -61,7 +61,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100%">
       <tr>
-        <td style="border-bottom: 4px solid gray;" align="left" colspan="2">
+        <td style="border-bottom: 4px solid gray; padding-top:7px;" align="left" colspan="2">
           &#8201;&#8201;<b>PHP tips</b>
           &#8201;&#8201;&#8201;&#8201;Downloads
           &#8201;&#8201;&#8201;&#8201;On Github
