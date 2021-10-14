@@ -74,7 +74,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           font-weight:900;
         }
         .aaa2:hover {
-          color: lightgreen;
+          color: #31bc31;
         }  
       </style>  
     
