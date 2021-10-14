@@ -40,8 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <ID>1</ID>
     <DATE>Thu October 14th 2021</DATE>
     <TITLE>Directory separation</TITLE>
-    <BODY>
-<![CDATA[
+    <BODY><![CDATA[
 It is good practice to separate the location of the resources managed
 by the web server from all the other scripts .php, .inc or whatever
 that can remain private to the application.<br/>
@@ -49,8 +48,7 @@ Basically, you can quitely set a Public dir with your php router (usually
 the index.php file) and the static content of your web app while in the Private 
 dir you will set all the rest of the web app, you will go to include through
 the router or other mechanism.
-]]>
-    </BODY>  
+]]></BODY>  
 		<TEXT>Tip #1</TEXT>
 		<IMAGE>
 		   <ADDRESS>https://qianjiasjz.com/res/qian.jpg</ADDRESS>
@@ -69,15 +67,13 @@ the router or other mechanism.
     <ID>2</ID>
     <DATE>Thu October 14th 2021</DATE>
     <TITLE>Initialization: one file, easy life</TITLE>
-    <BODY>
-<![CDATA[
+    <BODY><![CDATA[
 Having wrote also just a small router for your web app you remain
 to decide where to initialize all your web app const, classes, contexts, etc.
 There is no better place than having an ad-hoc init.inc (or .php) file where to 
 include all the needed resources, initialize session, cache, error
 handling, etc.
-]]>    
-    </BODY>  
+]]></BODY>    
 		<TEXT>Tip #2</TEXT>
 		<IMAGE>
 		   <ADDRESS>https://qianjiasjz.com/res/qian.jpg</ADDRESS>
