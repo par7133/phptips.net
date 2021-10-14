@@ -62,11 +62,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <table border="0" width="100%" height="100%">
       <tr>
         <td style="border-bottom: 4px solid gray; padding-top:10px; padding-bottom:10px;" align="left" colspan="2">
-          &#8201;&#8201;<b><i>PHP</i> tips</b>
-          &#8201;&#8201;&#8201;&#8201;Downloads
-          &#8201;&#8201;&#8201;&#8201;On Github
-          &#8201;&#8201;&#8201;&#8201;Ask
-          &#8201;&#8201;&#8201;&#8201;Feedback
+          &#8201;&#8201;&#8201;<b><i>PHP</i> tips</b>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads">Downloads</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net">On Github</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/discussions">Ask</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="mailto:info@phptips.net">Feedback</a>
           <br/>
         </td>
       </tr>   
