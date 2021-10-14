@@ -57,20 +57,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 	  </HEAD>
 
-    <BODY style="background-color:#FFFFFF">
+    <BODY style="background-color:#FFFFFF; margin:0">
       
       <table border="0" width="100%" height="100%">
       <tr>
-        <td style="border-bottom: 4px solid lightgray;" align="left">
-          &#8201;&#8201;PHP Tips
+        <td style="border-bottom: 4px solid lightgray;" align="left" colspan="2">
+          &#8201;&#8201;<b>PHP tips</b>
           &#8201;&#8201;&#8201;&#8201;Downloads
           &#8201;&#8201;&#8201;&#8201;On Github
           &#8201;&#8201;&#8201;&#8201;Ask
           &#8201;&#8201;&#8201;&#8201;Feedback
+          <br><br>
         </td>
       </tr>   
 		  <tr>
-		    <td width="70%" height="100%" align="center" style="border-right: 4px solid lightgray;">
+		    <td width="70%" height="100%" align="left" style="padding-left:10px; border-right: 4px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
@@ -90,7 +91,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>
         
-        <td width="30%" height="100%" align="left" style="border-right: 4px solid lightgray;">
+        <td width="30%" height="100%" align="left">
           &#8201;
         </td>
         
