@@ -67,7 +67,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <BODY style="background-color:#FFFFFF; margin:0">
       
-      <table border="0" width="100%" height="100%" style="border:0;margin:0;">
+      <table border="0" width="100" height="100" style="border:0;margin:0;">
       <tr>
         <td style="width: 55px;">&#8201;</td>
         <td style="border-bottom: 0.5px solid lightgray; padding-top:13px; padding-bottom:13px;" align="left" colspan="2">
@@ -80,8 +80,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
       </tr>   
 		  <tr>
-        <td style="width: 55px;">&#8201;</td> 
-		    <td width="80%" height="100%" align="left" style="padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
+        <td height="100" style="width: 55px;">&#8201;</td> 
+		    <td height="100" width="80%" height="100%" align="left" style="padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
@@ -100,7 +100,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>
         
-        <td width="20%" height="100%" align="left">
+        <td height="100" width="20%" height="100%" align="left">
           &#8201;
         </td>
         
