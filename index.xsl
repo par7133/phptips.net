@@ -63,7 +63,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100%">
       <tr>
-        <td style="border-bottom: 4px solid lightgray;">&nbsp;</td>
+        <td style="border-bottom: 4px solid lightgray;">&#8201;</td>
       </tr>   
 		  <tr>
 		    <td width="70%" height="100%" align="center" style="border-right: 4px solid lightgray;">
