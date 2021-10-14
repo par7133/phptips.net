@@ -118,7 +118,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             </a>
           </div>
 
-          <hr style="border-top: 1px dotted lightgray;"/>  
+          <hr style="border-top: 1px dotted #f0f0f0;"/>  
     
 	      	</xsl:for-each>
 
