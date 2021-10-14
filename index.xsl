@@ -119,7 +119,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
       </tr>   
 		  <tr>
-		    <td width="74%" align="left" style="background-color:#4c5d8d; color:#FFFFFF;padding-top:10px; padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
+		    <td width="74%" align="left" style="height:1900px; background-color:#4c5d8d; color:#FFFFFF;padding-top:10px; padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
@@ -140,7 +140,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>
         
-        <td id="tdl" width="20%" align="left" style="padding-top:10px; vertical-align:top; min-height:1900px;">
+        <td id="tdl" width="20%" align="left" style="padding-top:10px; vertical-align:top;">
 
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
