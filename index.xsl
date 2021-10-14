@@ -66,7 +66,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <BODY style="background-color:#FFFFFF; margin:0">
       
-      <table border="0" width="100%" height="100%">
+      <table border="0" width="100%" height="100%" border="0">
       <tr>
         <td style="border-bottom: 4px solid gray; padding-top:10px; padding-bottom:10px;" align="left" colspan="2">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-weight:900"><i>PHP</i> tips</span></a>
@@ -88,8 +88,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
-            <h2><xsl:value-of select="TITLE"/>
-            </h2>
+            <span style="font-size:16px;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
             <xsl:value-of select="BODY"/><br/><br/>
           </p>
