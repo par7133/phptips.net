@@ -68,7 +68,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100%" style="border:0;margin:0;">
       <tr>
-        <td style="border-bottom: 4px solid gray; padding-top:10px; padding-bottom:10px;" align="left" colspan="2">
+        <td style="width: 55px;">&#8201;</td>
+        <td style="border-bottom: 0.5px solid lightgray; padding-top:13px; padding-bottom:13px;" align="left" colspan="2">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-weight:900"><i>PHP</i> tips</span></a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa">Downloads</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa">On Github</a>
@@ -78,7 +79,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
       </tr>   
 		  <tr>
-		    <td width="80%" height="100%" align="left" style="padding-left:10px; padding-right:10px; border-right: 4px solid gray;">
+        <td style="width: 55px;">&#8201;</td> 
+		    <td width="80%" height="100%" align="left" style="padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
