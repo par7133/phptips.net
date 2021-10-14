@@ -67,7 +67,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           &#8201;&#8201;&#8201;&#8201;On Github
           &#8201;&#8201;&#8201;&#8201;Ask
           &#8201;&#8201;&#8201;&#8201;Feedback
-          <br><br>
+          <br/><br/>
         </td>
       </tr>   
 		  <tr>
