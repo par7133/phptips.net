@@ -89,20 +89,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 			    <xsl:sort select="INDEX" data-type="number" order="ascending"/>
 		
-			    <p>
+			    <div>
+            <xsl:attribute name="id"><xsl:value-of select="ID"/></xsl:attribute>
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
             <span style="font-size:16px; font-weight:900;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
             <xsl:value-of select="BODY"/><br/><br/>
-          </p>
+          </div>
 		
 	      	</xsl:for-each>
           
         </td>
         
-        <td id="tdl" width="20%" align="left">
+        <td id="tdl" width="20%" align="left" style="vertical-align:top;">
 
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
