@@ -66,7 +66,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <BODY style="background-color:#FFFFFF; margin:0">
       
-      <table border="0" width="100%" height="100%" border="0">
+      <table border="0" width="100%" height="100%" style="border:0;margin:0;">
       <tr>
         <td style="border-bottom: 4px solid gray; padding-top:10px; padding-bottom:10px;" align="left" colspan="2">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-weight:900"><i>PHP</i> tips</span></a>
