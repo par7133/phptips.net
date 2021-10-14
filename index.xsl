@@ -103,7 +103,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
         
         <td id="tdl" width="20%" align="left">
-          &#8201;
+
+          <xsl:for-each select="ITEM[TYPE='tip']">
+		
+			    <xsl:sort select="INDEX" data-type="number" order="ascending"/>
+		
+   	      <a>
+	      	  <xsl:attribute name="target">_blank</xsl:attribute> 
+            <xsl:attribute name="class">aaa</xsl:attribute>
+            <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
+            <xsl:value-of select="TITLE"/>
+          </a>
+          
+          <br/>  
+    
+	      	</xsl:for-each>
+
         </td>
         
       </tr>
