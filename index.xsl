@@ -186,10 +186,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          
            setTimeout("setFooterPos()", 1000);
          
-           document.getElementById("tdl").style.Min-height = parseInt(window.innerHeight) + "px"; 
+           //document.getElementById("tdl").style.Min-height = parseInt(window.innerHeight) + "px"; 
          } 
                      
          mymain();
+         
 		  </script>
       
 	  </BODY>
