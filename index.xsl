@@ -103,7 +103,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>
         
-        <td id="tdl" width="20%" align="left" style="vertical-align:top;">
+        <td id="tdl" width="14%" align="left" style="vertical-align:top;">
 
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
@@ -124,6 +124,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
         </td>
         
+        <td width="6%">
+          &#8201;
+        </td>  
       </tr>
       </table>
       
