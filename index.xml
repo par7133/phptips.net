@@ -66,7 +66,7 @@ include through the router or other mechanism.
 	<ITEM>
     <ID>2</ID>
     <DATE>Thu October 14th 2021</DATE>
-    <TITLE>Initialization: one file, easy life</TITLE>
+    <TITLE>Init: one file, easy life</TITLE>
     <BODY><![CDATA[
 Having wrote also just a small router for your web app you remain
 to decide where to initialize all your web app const, classes, contexts, etc.
