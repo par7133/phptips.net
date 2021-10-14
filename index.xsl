@@ -61,17 +61,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100%">
       <tr>
-        <td style="border-bottom: 4px solid lightgray;" align="left" colspan="2">
+        <td style="border-bottom: 4px solid gray;" align="left" colspan="2">
           &#8201;&#8201;<b>PHP tips</b>
           &#8201;&#8201;&#8201;&#8201;Downloads
           &#8201;&#8201;&#8201;&#8201;On Github
           &#8201;&#8201;&#8201;&#8201;Ask
           &#8201;&#8201;&#8201;&#8201;Feedback
-          <br/><br/>
+          <br/>
         </td>
       </tr>   
 		  <tr>
-		    <td width="80%" height="100%" align="left" style="padding-left:10px; border-right: 4px solid lightgray;">
+		    <td width="80%" height="100%" align="left" style="padding-left:10px; border-right: 4px solid gray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
@@ -83,7 +83,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             </span><br/>
             <h2><xsl:value-of select="TITLE"/>
             </h2>
-            <hr/>    
+            <hr style="border-top: 1px dotted lightgray;"/>    
             <xsl:value-of select="BODY"/><br/><br/>
           </p>
 		
