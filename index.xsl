@@ -116,7 +116,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/discussions" class="aaa" style="font-size:20px;">Ask</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="mailto:info@phptips.net" class="aaa" style="font-size:20px;">Feedback</a>
           
-          <div style="float:right;position:relative;top;+8px;"><input id="q" type="text" placeholder="search" maxlength="30" style="width:25%;height:24px;min-width:345px;font-size:13px"/>&#8201;&#8201;</div>
+          <div style="float:right;position:relative;top;+10px;"><input id="q" type="text" placeholder="search" maxlength="30" style="width:25%;height:24px;min-width:345px;font-size:13px"/>&#8201;&#8201;</div>
           
           <br/>
           
