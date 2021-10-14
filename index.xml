@@ -60,7 +60,7 @@ include through the router or other mechanism.
     </VIDEO>  
 		<URL>http://qianjiasjz.com/</URL>
 		<TYPE>tip</TYPE>
-    <CAT>Security</CAT>
+    <CAT>security</CAT>
 		<INDEX>1</INDEX>
 	</ITEM>
 	<ITEM>
@@ -85,7 +85,7 @@ handling, etc.
     </VIDEO>  
 		<URL>http://qianjiasjz.com/</URL>
 		<TYPE>tip</TYPE>
-    <CAT>Deployment</CAT>
+    <CAT>deployment</CAT>
 		<INDEX>2</INDEX>
 	</ITEM>
 </CONTENT>
