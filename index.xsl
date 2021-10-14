@@ -123,7 +123,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 
-          <option value="<xsl:value-of select='TITLE'/>"/>
+          <option>
+            <xsl:attribute name="value"><xsl:value-of select="TITLE"/></xsl:attribute>
+          </option>
 
 	      	</xsl:for-each>
           </datalist>
