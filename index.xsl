@@ -61,7 +61,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            }
          }
       
-         window.addEventListener("load", function() {
+         document.addEventListener("load", function() {
          
            setTimeout("setFooterPos()", 1000);
          
