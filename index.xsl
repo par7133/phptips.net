@@ -83,7 +83,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
       </tr>   
 		  <tr>
-		    <td width="80%" align="left" style="background-color:darkmaroon; color:#FFFFFF;padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
+		    <td width="80%" align="left" style="background-color:#5d350e; color:#FFFFFF;padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
