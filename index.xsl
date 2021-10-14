@@ -140,7 +140,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>
         
-        <td id="tdl" width="20%" align="left" style="padding-top:10px; vertical-align:top;">
+        <td id="tdl" width="20%" align="left" style="padding-top:10px; vertical-align:top; min-height:1900px;">
 
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
@@ -182,11 +182,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
          function mymain() {
          
-           alert("hello!");
+           //alert("hello!");
          
            setTimeout("setFooterPos()", 1000);
          
-           document.getElementById("tdl").style.min-height = parseInt(window.innerHeight) + "px"; 
+           //document.getElementById("tdl").style.min-height = parseInt(window.innerHeight) + "px"; 
          } 
                      
          mymain();
