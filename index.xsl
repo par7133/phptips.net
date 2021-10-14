@@ -69,7 +69,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         .aaa2 {
           /*color:#8892bf;*/
           /*color: #824a14;*/
-          color: darkgray;
+          color: #939393;
           text-decoration: none;
           font-weight:900;
         }
