@@ -52,8 +52,20 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  	
 	  	<script language="text/javascript">
 	  	<![CDATA[
+               
+         function setFooterPos() {
+           if (document.getElementById("footerCont")) {
+             tollerance = 16;
+             $("#footerCont").css("top", parseInt( window.innerHeight - $("#footerCont").height() - tollerance ) + "px");
+             $("#footer").css("top", parseInt( window.innerHeight - $("#footer").height() - tollerance ) + "px");
+           }
+         }
+      
          window.addEventListener("load", function() {
-           document.getElementById("tdl").style.min-height = parseInt(window.innerHeight) + "px"; 
+         
+           setTimeout("setFooterPos()", 1000);
+         
+           document.getElementById("tdl").style.Min-height = parseInt(window.innerHeight) + "px"; 
          });
       ]]>
 		  </script>
@@ -141,6 +153,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>  
       </tr>
       </table>
+      
+      <div id="footerCont">&nbsp;</div>
+      <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&nbsp;&nbsp;<a class="aaa" href="dd.html">Disclaimer</a>.&nbsp;&nbsp;A <a id="linkOpenGallery" class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://wysiwyg.systems">WYSIWYG</a> system. Some rights reserved.<div id="butFeedback" style="display: none; position: absolute; left: 0px; cursor: pointer;" title="Send feedback"><a id="linkFeedback" style="cursor: pointer;"><img src="/res/feedback3.png" style="height:50px"></a></div></span></div>
       
 	  </BODY>
 	  </HTML>
