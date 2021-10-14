@@ -59,6 +59,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         .aaa {
           color:#8892bf;
           text-decoration: none;
+          font-weight:900;
         }
       </style>  
     
@@ -70,7 +71,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <tr>
         <td style="width: 55px;">&#8201;</td>
         <td style="border-bottom: 0.5px solid lightgray; padding-top:13px; padding-bottom:13px;" align="left" colspan="2">
-          &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:18px;font-weight:900;color:balck;"><i>PHP</i></span><span style="font-weight:900;color:red;">tips</span></a>
+          &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:18px;color:black;"><i>PHP</i></span><span style="color:red;">tips</span></a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa">Downloads</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa">On Github</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/discussions" class="aaa">Ask</a>
