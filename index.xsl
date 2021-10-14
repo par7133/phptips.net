@@ -123,7 +123,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
-			    <xsl:sort select="INDEX" data-type="number" order="ascending"/>
+			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
 			    <div>
             <xsl:attribute name="id"><xsl:value-of select="ID"/></xsl:attribute>
@@ -144,7 +144,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
-			    <xsl:sort select="INDEX" data-type="number" order="ascending"/>
+			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
           <div style="padding-top:8px;padding-left:8px;">
             <a>
