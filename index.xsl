@@ -61,7 +61,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <style>
         .aaa {
           /*color:#8892bf;*/
-          color: #824a14;
+          /*color: #824a14;*/
+          color: blue;
           text-decoration: none;
           font-weight:900;
         }
@@ -73,7 +74,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100" style="border:0;margin:0;">
       <tr>
-        <td style="border-bottom: 0.5px solid lightgray; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
+        <td style="background-color:lightgray;border-bottom: 0.5px solid lightgray; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa" style="font-size:20px;">Downloads</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa" style="font-size:20px;">On Github</a>
@@ -83,7 +84,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
       </tr>   
 		  <tr>
-		    <td width="80%" align="left" style="background-color:#5d350e; color:#FFFFFF;padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
+		    <td width="80%" align="left" style="background-color:#4c5d8d; color:#FFFFFF;padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
