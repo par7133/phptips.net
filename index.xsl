@@ -205,7 +205,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            for(i=0;i<linkt.length;i++) {
              title = linkt[i];
              id =  linkids[i];
-             var re = new RegExp("/^" + text + "/", "gi");
+             var re = new RegExp("/^" + text + ".*/", "gi");
              if (re.test(title)) {
                window.open("#"+id, "_self");
              }
