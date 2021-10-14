@@ -60,7 +60,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
       <style>
         .aaa {
-          color:#8892bf;
+          /*color:#8892bf;*/
+          color: #000000;
           text-decoration: none;
           font-weight:900;
         }
