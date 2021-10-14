@@ -59,8 +59,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <BODY style="background-color:#FFFFFF">
       
-    </BODY>
-      
       <table border="0" width="100%" height="100%">
       <tr>
         <td style="border-bottom: 4px solid lightgray;">&#8201;</td>
