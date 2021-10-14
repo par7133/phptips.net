@@ -109,7 +109,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 			    <xsl:sort select="INDEX" data-type="number" order="ascending"/>
 		
-          <div style="padding:8px">
+          <div style="padding:8px;padding-bottom:0px;">
             <a>
               <xsl:attribute name="target">_self</xsl:attribute> 
               <xsl:attribute name="class">aaa</xsl:attribute>
