@@ -201,6 +201,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
          function search(this1) {
            var text = $(this1).val();
+           alert(text);
            for(i=0;i<linkt.length;i++) {
              title = linkt[i];
              id =  linkids[i];
