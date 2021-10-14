@@ -66,6 +66,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           text-decoration: none;
           font-weight:900;
         }
+        .aaa2 {
+          /*color:#8892bf;*/
+          /*color: #824a14;*/
+          color: darkgray;
+          text-decoration: none;
+          font-weight:900;
+        }
       </style>  
     
 	  </HEAD>
@@ -74,7 +81,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100" style="border:0;margin:0;">
       <tr>
-        <td style="background-color:lightgray;border-bottom: 0.5px solid lightgray; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
+        <td style="background-color:#e7e7e7;border-bottom: 0.5px solid lightgray; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa" style="font-size:20px;">Downloads</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa" style="font-size:20px;">On Github</a>
@@ -114,9 +121,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div style="padding-top:8px;padding-left:8px;">
             <a>
               <xsl:attribute name="target">_self</xsl:attribute> 
-              <xsl:attribute name="class">aaa</xsl:attribute>
+              <xsl:attribute name="class">aaa2</xsl:attribute>
               <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
-              <xsl:value-of select="TITLE"/>
+              < ><xsl:value-of select="TITLE"/>
             </a>
           </div>
 
