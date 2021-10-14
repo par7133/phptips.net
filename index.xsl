@@ -202,11 +202,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          function search(this1) {
            var text = $(this1).val();
            alert(text);
-           for(i=0;i<linkt.length;i++) {
+           var re = new RegExp(text, "gi");
+           for(i=1;i<linkt.length;i++) {
              alert(linkt[i]);
              title = linkt[i];
              id =  linkids[i];
-             var re = new RegExp("/^" + text + ".*/", "gi");
              if (re.test(title)) {
                window.open("#"+id, "_self");
              }
