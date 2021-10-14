@@ -53,7 +53,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  	<script language="text/javascript">
 	  	<![CDATA[
          window.addEventListener("load", function() {
-           document.getElementById("tdl").style.Height = winodw.innerHeight; 
+           document.getElementById("tdl").style.Height = parseInt(winodw.innerHeight) + "px"; 
          });
       ]]>
 		  </script>
