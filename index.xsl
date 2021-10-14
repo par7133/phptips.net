@@ -61,7 +61,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <style>
         .aaa {
           /*color:#8892bf;*/
-          color: #000000;
+          color: #824a14;
           text-decoration: none;
           font-weight:900;
         }
@@ -83,7 +83,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>
       </tr>   
 		  <tr>
-		    <td width="80%" align="left" style="background-color:darkgray; color:#FFFFFF;padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
+		    <td width="80%" align="left" style="background-color:darkmaroon; color:#FFFFFF;padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
