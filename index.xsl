@@ -118,7 +118,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
           <div style="float:right;position:relative;top;+14px;"><input id="q" list="liveres" type="text" placeholder="search" maxlength="30" style="width:25%;height:24px;min-width:345px;font-size:13px"/>&#8201;&#8201;</div>
           
-          <div id="contres"></div>
+          <datalist id="liveres">
+          <xsl:for-each select="ITEM[TYPE='tip']">
+		
+			    <xsl:sort select="ID" data-type="number" order="ascending"/>
+
+          <option value="<xsl:value-of select='TITLE'/>">
+
+	      	</xsl:for-each>
+          </datalist>
           
           <br/>
           
@@ -204,17 +212,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          function search(this1) {
            var text = $(this1).val();
            var re = new RegExp(text, "gi");
-           reshtml = "<datalist id='liveres'>";
+           //reshtml = "<datalist id='liveres'>";
            for(i=1;i<linkt.length;i++) {
              title = linkt[i];
              id =  linkids[i];
              if (re.test(title)) {
-               reshtml = reshtml + "<option value='" + title + "'>";
-               //window.open("#"+id, "_self");
+               //reshtml = reshtml + "<option value='" + title + "'>";
+               window.open("#"+id, "_self");
              }
            }
-           reshtml = reshtml + "</datalist>";
-           $("#contres").html(reshtml);    
+           //reshtml = reshtml + "</datalist>";
+           //$("#contres").html(reshtml);    
          }
       
          function setFooterPos() {
@@ -223,6 +231,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
              $("#footerCont").css("top", parseInt( window.innerHeight - $("#footerCont").height() - tollerance ) + "px");
              $("#footer").css("top", parseInt( window.innerHeight - $("#footer").height() - tollerance ) + "px");
            }
+         }
+      
+         function loadres() {
+         
          }
       
          function mymain() {
