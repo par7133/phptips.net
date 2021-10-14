@@ -174,8 +174,42 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <div id="footerCont">&#8201;</div>
       <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&#8201;&#8201;<a class="aaa" href="dd.html">Disclaimer</a>.&#8201;&#8201;A <a class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://wysiwyg.systems">WYSIWYG</a> system. Some rights reserved.</span></div>
 
-	  	<script> 
-      <![CDATA[                
+	  	<script>
+        
+        var linkt = [];
+        var linkids = [];
+        
+        <xsl:for-each select="ITEM[TYPE='tip']">
+  
+        <xsl:sort select="ID" data-type="number" order="ascending"/>
+  
+        linkt[] = "<xsl:value-of select='TITLE'/>";
+        linkids[] = <xsl:value-of select="ID"/>;
+        
+        </xsl:for-each>
+         
+        <![CDATA[                
+      
+          $("input#q").on("keydown",function(e){
+            key = e.which; 
+            if (key===13) {
+              e.preventDefault();
+              search(this);
+            } else {
+            }
+          });    
+      
+         function search(this1) {
+           var text = $(this1).val();
+           for(i=0;i<linkt.length;i++) {
+             value = linkt[i];
+             var re = new RegExp("/^" + text + "/", "gi");
+             if (re.test(value)) {
+               window.open("#"+linkids[i], "_self");
+             }
+           }    
+         }
+      
          function setFooterPos() {
            if (document.getElementById("footerCont")) {
              tollerance = 16;
