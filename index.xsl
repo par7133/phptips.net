@@ -87,6 +87,37 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         }
         .aaa2:hover {
           color: #31bc31;
+        }
+        #footerCont {
+          position: fixed; 
+          top: 2000px; 
+          left:-10px;
+          width: 102%; 
+          border: 1px solid #C2DBF2; 
+          padding: 7px; 
+          background: white; 
+          opacity: 0.3;
+          color:white; 
+          font-family: Sans;
+          font-size: 12px; 
+          text-align: center; 
+          z-index: 99998;
+        }
+        #footer {
+          position: fixed;
+          float: right;
+          top: 2000px; 
+          left:-10px;
+          width: 100%; 
+          border: 0px solid #C2DBF2; 
+          padding: 7px; 
+          opacity: 1.0;
+          color:black; 
+          font-family: Sans;
+          font-size: 12px; 
+          font-weight: 400;
+          text-align: right; 
+          z-index: 99999;
         }  
       </style>  
     
