@@ -55,6 +55,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       ]]>
 		  </script>
 		
+      <style>
+        .aaa {
+          color: black;
+          text-decoration: none;
+        }
+      </style>  
+    
 	  </HEAD>
 
     <BODY style="background-color:#FFFFFF; margin:0">
@@ -62,16 +69,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <table border="0" width="100%" height="100%">
       <tr>
         <td style="border-bottom: 4px solid gray; padding-top:10px; padding-bottom:10px;" align="left" colspan="2">
-          &#8201;&#8201;&#8201;<b><i>PHP</i> tips</b>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads">Downloads</a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net">On Github</a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/discussions">Ask</a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="mailto:info@phptips.net">Feedback</a>
+          &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-weight:900"><i>PHP</i> tips</span></a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa">Downloads</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa">On Github</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/discussions" class="aaa">Ask</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="mailto:info@phptips.net" class="aaa">Feedback</a>
           <br/>
         </td>
       </tr>   
 		  <tr>
-		    <td width="80%" height="100%" align="left" style="padding-left:10px; border-right: 4px solid gray;">
+		    <td width="80%" height="100%" align="left" style="padding-left:10px; padding-right:10px; border-right: 4px solid gray;">
           
           <xsl:for-each select="ITEM[TYPE='tip']">
 		
