@@ -49,28 +49,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <meta name="author" content="5 Mode"/> 
      
 	    <link rel="shortcut icon" href="/res/favicon.ico"/>
-	  	
-	  	<script>
-               
-         function setFooterPos() {
-           if (document.getElementById("footerCont")) {
-             tollerance = 16;
-             $("#footerCont").css("top", parseInt( window.innerHeight - $("#footerCont").height() - tollerance ) + "px");
-             $("#footer").css("top", parseInt( window.innerHeight - $("#footer").height() - tollerance ) + "px");
-           }
-         }
-      
-         function main() {
-         
-           alert("hello!");
-         
-           setTimeout("setFooterPos()", 1000);
-         
-           document.getElementById("tdl").style.Min-height = parseInt(window.innerHeight) + "px"; 
-         }
-
-		  </script>
-		
+	  			
       <style>
         .aaa {
           /*color:#8892bf;*/
@@ -121,6 +100,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           z-index: 99999;
         }  
       </style>  
+    
+      <script src="./js/jquery-3.1.0.min.js" type="text/javascript"></script>
     
 	  </HEAD>
 
@@ -189,8 +170,26 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <div id="footerCont">&#8201;</div>
       <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&#8201;&#8201;<a class="aaa" href="dd.html">Disclaimer</a>.&#8201;&#8201;A <a class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://wysiwyg.systems">WYSIWYG</a> system. Some rights reserved.</span></div>
 
-	  	<script>              
-         main();
+	  	<script> 
+                      
+         function setFooterPos() {
+           if (document.getElementById("footerCont")) {
+             tollerance = 16;
+             $("#footerCont").css("top", parseInt( window.innerHeight - $("#footerCont").height() - tollerance ) + "px");
+             $("#footer").css("top", parseInt( window.innerHeight - $("#footer").height() - tollerance ) + "px");
+           }
+         }
+      
+         function mymain() {
+         
+           alert("hello!");
+         
+           setTimeout("setFooterPos()", 1000);
+         
+           document.getElementById("tdl").style.Min-height = parseInt(window.innerHeight) + "px"; 
+         } 
+                     
+         mymain();
 		  </script>
       
 	  </BODY>
