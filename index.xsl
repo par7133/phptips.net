@@ -61,7 +61,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100%">
       <tr>
-        <td style="border-bottom: 4px solid lightgray;">&#8201;</td>
+        <td style="border-bottom: 4px solid lightgray;" align="left">
+          &#8201;&#8201;PHP Tips
+          &#8201;&#8201;&#8201;&#8201;Downloads
+          &#8201;&#8201;&#8201;&#8201;On Github
+          &#8201;&#8201;&#8201;&#8201;Ask
+          &#8201;&#8201;&#8201;&#8201;Feedback
+        </td>
       </tr>   
 		  <tr>
 		    <td width="70%" height="100%" align="center" style="border-right: 4px solid lightgray;">
@@ -74,13 +80,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
-            <h2><xsl:value-of select="TITLE"/></h2><br/><br/>
+            <h2><xsl:value-of select="TITLE"/>
+            </h2>
             <hr/>    
             <xsl:value-of select="BODY"/><br/><br/>
           </p>
 		
 	      	</xsl:for-each>
           
+        </td>
+        
+        <td width="30%" height="100%" align="left" style="border-right: 4px solid lightgray;">
+          &#8201;
         </td>
         
       </tr>
