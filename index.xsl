@@ -109,7 +109,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100" style="border:0;margin:0;">
       <tr>
-        <td style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="2">
+        <td width="74%" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="2">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa" style="font-size:20px;">Downloads</a>
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa" style="font-size:20px;">On Github</a>
@@ -117,7 +117,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           &#8201;&#8201;&#8201;&#8201;&#8201;<a href="mailto:info@phptips.net" class="aaa" style="font-size:20px;">Feedback</a>
           <br/>
         </td>
-        <td width="26%" align="left" style="padding-top:10px; vertical-align:top; min-width: 350px;">
+        <td width="26%" align="left" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-top:13px; padding-bottom:13px; vertical-align:top; min-width: 350px;">
           <input id="q" type="text" placeholder="search" maxlength="30"/>
         </td>   
       </tr>   
