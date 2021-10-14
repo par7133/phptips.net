@@ -183,8 +183,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   
         <xsl:sort select="ID" data-type="number" order="ascending"/>
   
-        linkt[] = "<xsl:value-of select='TITLE'/>";
-        linkids[] = <xsl:value-of select="ID"/>;
+        linkt[<xsl:value-of select="ID"/>] = "<xsl:value-of select='TITLE'/>";
+        linkids[<xsl:value-of select="ID"/>] = <xsl:value-of select="ID"/>;
         
         </xsl:for-each>
          
@@ -202,10 +202,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          function search(this1) {
            var text = $(this1).val();
            for(i=0;i<linkt.length;i++) {
-             value = linkt[i];
+             title = linkt[i];
+             id =  linkids[i];
              var re = new RegExp("/^" + text + "/", "gi");
-             if (re.test(value)) {
-               window.open("#"+linkids[i], "_self");
+             if (re.test(title)) {
+               window.open("#"+id, "_self");
              }
            }    
          }
