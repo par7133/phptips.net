@@ -75,10 +75,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			    <p>
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
-            </span><br>
-            <h2><xsl:value-of select="TITLE"/></h2><br><br>
-            <hr>    
-            <xsl:value-of select="BODY"/><br><br>
+            </span><br/>
+            <h2><xsl:value-of select="TITLE"/></h2><br/><br/>
+            <hr/>    
+            <xsl:value-of select="BODY"/><br/><br/>
           </p>
 		
 	      	</xsl:for-each>
