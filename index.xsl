@@ -135,14 +135,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>   
       </tr>
       <tr>
-        <td>
+        <td style="border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;">
           
           <xsl:for-each select="ITEM/CAT">
 		
           <xsl:sort select="text()" data-type="text" order="ascending"/>
     
-          &#8201;&#8201;&#8201;
+          &#8201;&#8201;&#8201;&#8201;
           <a>
+            <xsl:attribute name="class">aaa</xsl:attribute>
             <xsl:attribute name="href"><xsl:value-of select="text()"/></xsl:attribute>
             <xsl:value-of select="text()"/>
           </a>
