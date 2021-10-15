@@ -42,7 +42,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <![CDATA[
         var xslStylesheet2;
         var xsltProcessor2 = new XSLTProcessor();
-
+        
+        var myDOM2;
+        
         var xmlDoc2;
 
         function loadData2(stylesheet) {
@@ -72,7 +74,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           xmlDoc2 = myXMLHTTPRequest2.responseXML;
 
           var fragment2 = xsltProcessor2.transformToFragment(xmlDoc2, document);
-
+          
+          var myDOM2 = fragment2;
+          
+          document.getElementById("content").textContent = "";
+          
           document.getElementById("content").appendChild(fragment2);
         }
        ]]>

@@ -97,9 +97,10 @@
 
       var fragment = xsltProcessor.transformToFragment(xmlDoc, document);
 
+      myDOM = fragment;
+
       document.getElementById("content").textContent = "";
 
-      myDOM = fragment;
       document.getElementById("content").appendChild(fragment);
     }
    
