@@ -77,9 +77,9 @@ and *served* by the webserver you can write it in a *beautiful* .php
 extension. When, instead, you are going to write some classes or 
 some reusable code that just needs to be *included* and not *served*
 to the user it is the time to write a *secret* .inc file. The point is 
-exactly that your frontend webserver is not configured to serve the 
-.inc files. Remember that this choice is safe only when it is adopted
-in conjunction with a directory separation approach.</BODY>  
+exactly that your frontend webserver is most probably not configured 
+to serve the .inc files. Remember that this choice is safe only when 
+it is adopted in conjunction with a directory separation approach.</BODY>  
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
