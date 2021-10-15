@@ -160,7 +160,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           // load the xslt file, example1.xsl
           var myXMLHTTPRequest2 = new XMLHttpRequest();
-          myXMLHTTPRequest2.open("GET", ss, false);
+          myXMLHTTPRequest2.open("GET", ss, true);
           myXMLHTTPRequest2.send(null);
 
           xslStylesheet2 = myXMLHTTPRequest2.responseXML;
@@ -168,7 +168,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           // load the xml file, example1.xml
           myXMLHTTPRequest2 = new XMLHttpRequest();
-          myXMLHTTPRequest2.open("GET", "data.xml", false);
+          myXMLHTTPRequest2.open("GET", "data.xml", true);
           myXMLHTTPRequest2.send(null);
 
           xmlDoc2 = myXMLHTTPRequest2.responseXML;

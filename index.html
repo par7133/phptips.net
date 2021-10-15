@@ -82,7 +82,7 @@
 
       // load the xslt file, example1.xsl
       var myXMLHTTPRequest = new XMLHttpRequest();
-      myXMLHTTPRequest.open("GET", ss, false);
+      myXMLHTTPRequest.open("GET", ss, true);
       myXMLHTTPRequest.send(null);
 
       xslStylesheet = myXMLHTTPRequest.responseXML;
@@ -90,7 +90,7 @@
 
       // load the xml file, example1.xml
       myXMLHTTPRequest = new XMLHttpRequest();
-      myXMLHTTPRequest.open("GET", "data.xml", false);
+      myXMLHTTPRequest.open("GET", "data.xml", true);
       myXMLHTTPRequest.send(null);
 
       xmlDoc = myXMLHTTPRequest.responseXML;
