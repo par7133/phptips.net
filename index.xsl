@@ -114,7 +114,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               [&#8201;<xsl:value-of select="CAT"/>&#8201;]
             </a>
             &#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
-            <hr style="border-top: 1px dotted lightgray;"/>    
+            <hr class="hr-tips"/>    
             <pre><xsl:value-of select="BODY"/></pre>
             
             <xsl:choose>
@@ -149,7 +149,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             </a>
           </div>
 
-          <hr style="border:0px; border-top: 1px dotted #f0f0f0;"/>  
+          <hr class="hr-index"/>  
     
 	      	</xsl:for-each>
 
