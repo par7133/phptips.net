@@ -116,6 +116,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             &#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
             <pre><xsl:value-of select="BODY"/></pre>
+            
+            <xsl:when test="SEE!=''">
+              Please see '
+              <a>
+                <xsl:attribute name="href"><xsl:value-of select="SEE-URL"/></xsl:attribute>
+                '<xsl:value-of select="SEE"/>'
+              </a>'  
+            </xsl:when>  
           </div>
 		
 	      	</xsl:for-each>

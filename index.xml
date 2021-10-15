@@ -47,7 +47,9 @@ Basically, you can quitely set a Public dir with your php router (usually
 the index.php file) and the static content of your web app; while in the Private 
 dir you are going to set all the rest of your web app, that you will go to 
 include through the router or other mechanism.
-]]></BODY>  
+]]></BODY>
+    <SEE/>  
+		<SEE-URL/>  
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>1</INDEX>
@@ -63,6 +65,8 @@ There is no better way than including an ad-hoc init.inc file where to
 set all the needed resources, initialize session, cache, error
 handling, etc.
 ]]></BODY>    
+    <SEE/>  
+		<SEE-URL/>
 		<TYPE>tip</TYPE>
     <CAT>deployment</CAT>
 		<INDEX>2</INDEX>
@@ -81,6 +85,8 @@ exactly that your frontend webserver is most probably not configured
 to serve the .inc files. Remember that this choice is safe only when 
 it is adopted in conjunction with a directory separation approach.
 ]]></BODY>  
+    <SEE>Directory separation</SEE>  
+		<SEE-URL>#1</SEE-URL>
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
