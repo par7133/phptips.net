@@ -139,7 +139,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
           <xsl:for-each select="ITEM/CAT">
 		
-          &#8201;&#8201;&#8201;<xsl:value-of select="text()"/>
+          <xsl:sort select="text()" data-type="text" order="ascending"/>
+    
+          &#8201;&#8201;&#8201;
+          <a>
+            <xsl:attribute name="href"><xsl:value-of select="text()"/></xsl:attribute>
+            <xsl:value-of select="text()"/>
+          </a>
     
 	      	</xsl:for-each>
 
