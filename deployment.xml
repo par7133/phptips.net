@@ -41,9 +41,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <TITLE>Initialization: one file, easy life</TITLE>
     <BODY><![CDATA[
 Having wrote also just a small router for your web app you remain
-to decide where to initialize all your web app const, classes, contexts, etc.
-There is no better place than having an ad-hoc init.inc (or .php) file where to 
-include all the needed resources, initialize session, cache, error
+to decide where to initialize all your web app const, classes, etc.
+There is no better place than including an ad-hoc init.inc (or .php) file where to 
+set all the needed resources, initialize session, cache, error
 handling, etc.
 ]]></BODY>    
 		<TYPE>tip</TYPE>
