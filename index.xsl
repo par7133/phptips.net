@@ -119,9 +119,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             
             <xsl:choose>
             <xsl:when test="SEE!=''">
-              Please see 
+              see:&#8201;
               <a>
                 <xsl:attribute name="href"><xsl:value-of select="SEEURL"/></xsl:attribute>
+                <xsl:attribute name="style">font-weight:900; font-style:italic; color:#FFFFFF;</xsl:attribute>
                 <xsl:value-of select="SEE"/>
               </a>  
             </xsl:when> 
