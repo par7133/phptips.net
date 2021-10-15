@@ -92,6 +92,7 @@ a {
   height:32px;
   position: relative;
   top:-10px;
+  font-size:32px;
 }  
 .header-link {
   float:left;
@@ -100,6 +101,7 @@ a {
   height:32px;
   position: relative;
   top:+2px;
+  font-size:20px;
 }
 .header-td {
   width:100%; 
