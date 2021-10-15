@@ -50,10 +50,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
      
 	    <link rel="shortcut icon" href="/res/favicon.ico"/>
 	  			
-      <script src="/js/bootstrap.min.js" type="text/javascript"></script> 
       <script src="./js/jquery-3.1.0.min.js" type="text/javascript"></script>
     
-      <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
       <link href="/css/style1.css" type="text/css" rel="stylesheet"/>
     
 	  </HEAD>
