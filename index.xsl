@@ -208,6 +208,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          } 
                      
          mymain();
+         
+         window.addEventHandler("resize", function() {
+            mymain();
+         });
+
       ]]>   
 		  </script>
       
