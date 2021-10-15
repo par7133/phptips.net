@@ -69,24 +69,20 @@
 
     var xmlDoc;
 
-    function init() {
+    function loadData(stylesheet) {
 
-      /*
       switch (stylesheet) {
          case "":
            ss = "ss1.xls";
            break; 
-         case "deployment":
-           ss = "deployment.xls";
+         default:
+           ss = stylesheet + ".xls";
            break; 
-         case "security":
-           ss = "security.xls";
-           break; 
-      } */ 
+      } 
 
       // load the xslt file, example1.xsl
       var myXMLHTTPRequest = new XMLHttpRequest();
-      myXMLHTTPRequest.open("GET", "ss1.xls", false);
+      myXMLHTTPRequest.open("GET", ss, false);
       myXMLHTTPRequest.send(null);
 
       xslStylesheet = myXMLHTTPRequest.responseXML;
@@ -108,7 +104,7 @@
     }
    
     window.addEventListener("load", function() {
-      init();
+      loadData();
     });
     
   </script>  
