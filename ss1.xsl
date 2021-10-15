@@ -141,9 +141,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       myDOM = fragment;
 
-      document.getElementById("content").textContent = "";
+      //document.getElementById("content").textContent = "";
 
-      document.getElementById("content").appendChild(fragment);
+      //document.getElementById("content").appendChild(fragment);
+      
+      $(document).html(myDOM);
     }
    
     window.addEventListener("load", function() {
