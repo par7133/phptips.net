@@ -120,7 +120,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <xsl:when test="SEE!=''">
               Please see 
               <a>
-                <xsl:attribute name="href"><xsl:value-of select="SEE-URL"/></xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="SEEURL"/></xsl:attribute>
                 '<xsl:value-of select="SEE"/>'
               </a>  
             </xsl:when>  

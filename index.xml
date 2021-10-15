@@ -86,7 +86,7 @@ to serve the .inc files. Remember that this choice is safe only when
 it is adopted in conjunction with a directory separation approach.
 ]]></BODY>  
     <SEE>Directory separation</SEE>  
-		<SEE-URL>#1</SEE-URL>
+		<SEEURL>#1</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
