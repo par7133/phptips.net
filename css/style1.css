@@ -36,6 +36,8 @@ a {
   /*color: #31bc31;*/
   color:#000000;
   border-bottom: 4px solid red;
+  position: relative;
+  top:-2px;
 }
 .cat {
   float:left;
