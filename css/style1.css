@@ -25,6 +25,11 @@ body {
   /*color: red;*/
   text-decoration:underline;
 }
+.cat {
+  float:left;
+  width:fit-content;
+  padding-left:30px;
+}
 #footerCont {
   position: fixed; 
   top: 2000px; 
