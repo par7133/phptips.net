@@ -71,7 +71,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           text-decoration: none;
           font-weight:900;
         }
-        .aaa2:hover {
+        .aaa3:hover {
           color: red;
         }
         #footerCont {
