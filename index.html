@@ -69,8 +69,9 @@
 
     var xmlDoc;
 
-    function loadData(stylesheet) {
+    function init() {
 
+      /*
       switch (stylesheet) {
          case "":
            ss = "ss1.xls";
@@ -81,7 +82,7 @@
          case "security":
            ss = "security.xls";
            break; 
-      }  
+      } */ 
 
       // load the xslt file, example1.xsl
       var myXMLHTTPRequest = new XMLHttpRequest();
@@ -107,7 +108,7 @@
     }
    
     window.addEventListener("load", function() {
-      loadData("");
+      init();
     });
     
   </script>  
