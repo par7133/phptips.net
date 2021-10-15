@@ -100,3 +100,8 @@ a {
   border:0px; 
   border-top: 1px dotted #f0f0f0;
 }
+.search-cont {
+  float:right;
+  position:relative;
+  top:+14px;
+}
