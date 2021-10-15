@@ -79,7 +79,7 @@ some reusable code that just needs to be *included* and not *served*
 to the user it is the time to write a *secret* .inc file. The point is 
 exactly that your frontend webserver is not configured to serve the 
 .inc files. Remember that this choice is safe only when it is adopted
-in conjunction with a &lt;a href="#1"&gt;Directory separation&lt;/a&gt; approach.</BODY>  
+in conjunction with a directory separation approach.</BODY>  
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
