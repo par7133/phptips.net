@@ -128,3 +128,15 @@ a {
   position:relative;
   top:+0px;
 }
+.tips-td {
+  width:70%; 
+  height:1900px; 
+  background-color:#4c5d8d; 
+  color:#FFFFFF; 
+  padding-top:10px; 
+  padding-left:10px; 
+  padding-right:10px; 
+  border-right: 0.5px solid lightgray; 
+  vertical-align:top; 
+  text-align:left;
+}
