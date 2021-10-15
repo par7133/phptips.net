@@ -60,6 +60,14 @@ body {
   font-weight: 400;
   text-align: right; 
   z-index: 99999;
+}
+.header-logo {
+  float:left;
+  width:fit-content;
+  padding-left:15px;
+  height:32px;
+  position: relative;
+  top:-12px;
 }  
 .header-link {
   float:left;
