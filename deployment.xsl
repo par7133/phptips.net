@@ -49,9 +49,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <meta name="author" content="5 Mode"/> 
      
 	    <link rel="shortcut icon" href="/res/favicon.ico"/>
-	  			
+	  	
       <script src="./js/jquery-3.1.0.min.js" type="text/javascript"></script>
-    
+
       <link href="/css/style1.css" type="text/css" rel="stylesheet"/>
     
 	  </HEAD>
@@ -60,12 +60,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100" style="border:0;margin:0;">
       <tr>
-        <td width="100%" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
-          &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/Downloads" class="aaa" style="font-size:20px;">Downloads</a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net" class="aaa" style="font-size:20px;">On Github</a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="http://github.com/par7133/phptips.net/discussions" class="aaa" style="font-size:20px;">Ask</a>
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="mailto:info@phptips.net" class="aaa" style="font-size:20px;">Feedback</a>
+        <td width="100%" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:15px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
+        
+          <div class="header-logo"><a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a></div>
+          <div class="header-link"><a href="http://github.com/par7133/phptips.net/Downloads" class="aaa" style="font-size:20px;">Downloads</a></div>
+          <div class="header-link"><a href="http://github.com/par7133/phptips.net" class="aaa" style="font-size:20px;">On Github</a></div>
+          <div class="header-link"><a href="http://github.com/par7133/phptips.net/discussions" class="aaa" style="font-size:20px;">Ask</a></div>
+          <div class="header-link"><a href="mailto:info@phptips.net" class="aaa" style="font-size:20px;">Feedback</a></div>
           
           <div style="float:right;position:relative;top;+14px;"><input id="q" list="liveres" type="text" placeholder="search" maxlength="30" style="width:25%;height:24px;min-width:345px;font-size:13px"/>&#8201;&#8201;</div>
           
@@ -86,11 +87,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>   
       </tr>
       <tr>
-        <td style="background-color:#18aed4; border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
+        <td width="100%" style="background-color:#828eaf; border-bottom: 3.5px solid #4c5d8d;padding-left:15px;padding-top:13px; padding-bottom:13px;" colspan="3">
           
-          &#8201;&#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa3">all</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa3">deployment</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa3">security</a>
+          <div class="cat"><a href="/" class="aaa3">all</a></div>
+          <div class="cat"><a href="/deployment.xml" class="aaa3">deployment</a></div>
+          <div class="cat"><a href="/security.xml" class="aaa3">security</a></div>
           
         </td>  
       </tr>     
@@ -107,7 +108,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
-            <span style="font-size:16px; font-weight:900; color:#31bc31;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</span>&#8201;<span style="font-size:16px; font-weight:900;"><xsl:value-of select="TITLE"/></span>
+            <a>
+              <xsl:attribute name="href"><xsl:value-of select="CAT"/>.xml</xsl:attribute>
+              <xsl:attribute name="style">font-weight:900; color:#31bc31;</xsl:attribute>
+              [&#8201;<xsl:value-of select="CAT"/>&#8201;]
+            </a>
+            &#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
             <pre><xsl:value-of select="BODY"/></pre>
           </div>
@@ -127,7 +133,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <xsl:attribute name="target">_self</xsl:attribute> 
               <xsl:attribute name="class">aaa2</xsl:attribute>
               <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
-              <span style="color:lightgray">&lt; &gt;</span>&#8201;&#8201;<span style="white-space:no-wrap"><xsl:value-of select="TITLE"/></span>
+              <span style="color:lightgray" class="bi bi-card-text">&lt; &gt;</span>&#8201;&#8201;<span style="white-space:no-wrap"><xsl:value-of select="TITLE"/></span>
             </a>
           </div>
 
@@ -196,7 +202,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          }
       
          function mymain() {
+         
            setTimeout("setFooterPos()", 1000);
+     
          } 
                      
          mymain();
