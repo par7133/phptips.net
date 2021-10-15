@@ -117,6 +117,13 @@ a {
   border:0px; 
   border-top: 1px dotted #f0f0f0;
 }
+.index-td {
+  width:26%; 
+  text-align:left; 
+  padding-top:10px; 
+  vertical-align:top; 
+  min-width: 350px;
+}
 .search-box {
   width:29%;
   height:24px;
