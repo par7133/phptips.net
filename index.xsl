@@ -108,7 +108,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
-            <span style="font-weight:900; color:#31bc31;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</span>&#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
+            <a href="#<xsl:value-of select='CAT'/>.xml" style="font-weight:900; color:#31bc31;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</a>&#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
             <pre><xsl:value-of select="BODY"/></pre>
           </div>
