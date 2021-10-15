@@ -4,7 +4,7 @@
 
 <xsl:output method="html" version="4"/>
 
-<!-- File name: index.xsl 
+<!-- File name: security.xsl 
 BSD 3-Clause License
 
 Copyright (c) 2021, 2024, 5 Mode
@@ -50,7 +50,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div style="float:right;position:relative;top;+14px;"><input id="q" list="liveres" type="text" placeholder="search" maxlength="30" style="width:25%;height:24px;min-width:345px;font-size:13px"/>&#8201;&#8201;</div>
           
           <datalist id="liveres">
-          <xsl:for-each select="ITEM[TYPE='tip']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='security']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 
@@ -87,7 +87,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		  <tr>
 		    <td width="74%" align="left" style="height:1900px; background-color:#4c5d8d; color:#FFFFFF; padding-top:10px; padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray; vertical-align:top;">
           
-          <xsl:for-each select="ITEM[TYPE='tip']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='security']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
@@ -108,7 +108,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         
         <td id="tdl" width="26%" align="left" style="padding-top:10px; vertical-align:top; min-width: 350px;">
 
-          <xsl:for-each select="ITEM[TYPE='tip']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='security']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
@@ -141,7 +141,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         var linkt = [];
         var linkids = [];
         
-        <xsl:for-each select="ITEM[TYPE='tip']">
+        <xsl:for-each select="ITEM[TYPE='tip' and CAT='security']">
   
         <xsl:sort select="ID" data-type="number" order="ascending"/>
   
