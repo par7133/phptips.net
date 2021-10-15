@@ -137,7 +137,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <tr>
         <td>
           
-          <xsl:for-each select="ITEM/CAT">
+          <xsl:for-each select="ITEM[CAT]">
 		
           &#8201;&#8201;&#8201;<xsl:value-of select="[text()]"/>
     
