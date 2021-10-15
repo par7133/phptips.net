@@ -60,7 +60,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table border="0" width="100%" height="100%" style="border:0;margin:0;">
       <tr>
-        <td width="100%" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:15px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
+        <td class="header-td" colspan="3">
         
           <div class="header-logo"><a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a></div>
           <div class="header-link"><a href="https://github.com/par7133/phptips.net/tree/main/downloads" class="aaa" style="font-size:20px;">Downloads</a></div>
