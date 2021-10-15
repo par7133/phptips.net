@@ -73,12 +73,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <xsl:sort select="text()" data-type="text" order="ascending"/>
     
           &#8201;&#8201;&#8201;&#8201;
-          <div>
-            <xsl:attribute name="style">float:left;</xsl:attribute>
+          <a>
             <xsl:attribute name="class">aaa2</xsl:attribute>
+            <xsl:attribute name="href">#</xsl:attribute>
             <xsl:attribute name="onclick">loadData('<xsl:value-of select="text()"/>');</xsl:attribute>
             <xsl:value-of select="text()"/>
-          </div>
+          </a>
     
 	      	</xsl:for-each>
 
