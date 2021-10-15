@@ -72,6 +72,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
           <xsl:sort select="text()" data-type="text" order="ascending"/>
     
+          &#8201;&#8201;&#8201;&#8201;<a class="aaa2" href="#" onclick="loadData2('');">all</a>
           &#8201;&#8201;&#8201;&#8201;
           <a>
             <xsl:attribute name="class">aaa2</xsl:attribute>
