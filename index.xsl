@@ -62,11 +62,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <tr>
         <td class="header-td" colspan="3">
         
-          <div class="header-logo"><a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a></div>
-          <div class="header-link"><a href="https://github.com/par7133/phptips.net/tree/main/downloads" class="aaa" style="font-size:20px;">Downloads</a></div>
-          <div class="header-link"><a href="http://github.com/par7133/phptips.net" class="aaa" style="font-size:20px;">On Github</a></div>
-          <div class="header-link"><a href="http://github.com/par7133/phptips.net/discussions" class="aaa" style="font-size:20px;">Ask</a></div>
-          <div class="header-link"><a href="mailto:info@phptips.net" class="aaa" style="font-size:20px;">Feedback</a></div>
+          <div class="header-logo"><a href="/" class="aaa"><span style="color:black;"><i>php</i></span><span style="color:red;">tips</span></a></div>
+          <div class="header-link"><a href="https://github.com/par7133/phptips.net/tree/main/downloads" class="aaa">Downloads</a></div>
+          <div class="header-link"><a href="http://github.com/par7133/phptips.net" class="aaa">On Github</a></div>
+          <div class="header-link"><a href="http://github.com/par7133/phptips.net/discussions" class="aaa">Ask</a></div>
+          <div class="header-link"><a href="mailto:info@phptips.net" class="aaa">Feedback</a></div>
           
           <div class="search-cont"><input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/>&#8201;&#8201;</div>
           
