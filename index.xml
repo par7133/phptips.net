@@ -40,7 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <DATE>Thu October 14th 2021</DATE>
     <TITLE>Directory separation</TITLE>
     <BODY><![CDATA[
-It is good practice to separate the location of the resources managed
+It is a good practice to separate the location of the resources managed
 by the web server from all the other scripts, .php, .inc or whatever
 can remain private to the application.
 Basically, you can quitely set a Public dir with your php router (usually
