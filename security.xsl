@@ -58,7 +58,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <BODY style="background-color:#FFFFFF; margin:0">
       
-      <table border="0" width="100%" height="100" style="border:0;margin:0;">
+      <table border="0" width="100%" height="100%" style="border:0;margin:0;">
       <tr>
         <td width="100%" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:15px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
         
