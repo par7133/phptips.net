@@ -72,14 +72,14 @@ handling, etc.
     <DATE>Fri October 15th 2021</DATE>
     <TITLE>Beautiful php, secret include</TITLE>
     <BODY>
-When you are going to write some code that need to be *recognized*
+When you are going to write some code that needs to be *recognized*
 and *served* by the webserver you can write it in a *beautiful* .php
 extension. When, instead, you are going to write some classes or 
-some reusable code that just need to be *included* and not *served*
+some reusable code that just needs to be *included* and not *served*
 to the user it is the time to write a *secret* .inc file. The point is 
 exactly that your frontend webserver is not configured to serve the 
 .inc files. Remember that this choice is safe only when it is adopted
-a <a href="#1">Directory separation</a> approach.</BODY>  
+in conjunction with a <a href="#1">Directory separation</a> approach.</BODY>  
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
