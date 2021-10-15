@@ -118,11 +118,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <pre><xsl:value-of select="BODY"/></pre>
             
             <xsl:when test="SEE!=''">
-              Please see '
+              Please see 
               <a>
                 <xsl:attribute name="href"><xsl:value-of select="SEE-URL"/></xsl:attribute>
                 '<xsl:value-of select="SEE"/>'
-              </a>'  
+              </a>  
             </xsl:when>  
           </div>
 		
