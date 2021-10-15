@@ -117,13 +117,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <hr style="border-top: 1px dotted lightgray;"/>    
             <pre><xsl:value-of select="BODY"/></pre>
             
+            <xsl:choose>
             <xsl:when test="SEE!=''">
               Please see 
               <a>
                 <xsl:attribute name="href"><xsl:value-of select="SEEURL"/></xsl:attribute>
                 <xsl:value-of select="SEE"/>
               </a>  
-            </xsl:when>  
+            </xsl:when> 
+            </xsl:choose>
+             
           </div>
 		
 	      	</xsl:for-each>
