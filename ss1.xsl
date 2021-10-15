@@ -75,7 +75,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           &#8201;&#8201;&#8201;&#8201;
           <a>
             <xsl:attribute name="class">aaa2</xsl:attribute>
-            <xsl:attribute name="href">#</xsl:attribute>
             <xsl:attribute name="onclick">loadData('<xsl:value-of select="text()"/>');</xsl:attribute>
             <xsl:value-of select="text()"/>
           </a>
