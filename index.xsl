@@ -66,6 +66,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         .aaa2:hover {
           color: #31bc31;
         }
+        .aaa3 {
+          color: #FFFFFF;
+          text-decoration: none;
+          font-weight:900;
+        }
+        .aaa3:hover {
+          color: #31bc31;
+        }
         #footerCont {
           position: fixed; 
           top: 2000px; 
@@ -135,9 +143,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <tr>
         <td style="background-color:#18aed4; border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
           
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa2" style="color:#ffffff;">all</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa2" style="color:#ffffff;">deployment</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa2" style="color:#ffffff;">security</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa3">all</a>
+          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa3">deployment</a>
+          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa3">security</a>
           
         </td>  
       </tr>     
