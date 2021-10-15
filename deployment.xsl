@@ -140,7 +140,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
-          <div style="index-ve-cont">
+          <div class="index-ve-cont">
             <a>
               <xsl:attribute name="target">_self</xsl:attribute> 
               <xsl:attribute name="class">aaa2</xsl:attribute>
