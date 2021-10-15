@@ -100,6 +100,12 @@ a {
   border:0px; 
   border-top: 1px dotted #f0f0f0;
 }
+.search-box {
+  width:29%;
+  height:24px;
+  min-width:375px;
+  font-size:13px;
+}
 .search-cont {
   float:right;
   position:relative;
