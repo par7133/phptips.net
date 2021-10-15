@@ -46,6 +46,14 @@ a {
   width:fit-content;
   padding-left:30px;
 }
+.cat-list-td {
+  width:100%; 
+  background-color:#828eaf; 
+  border-bottom: 3.5px solid #4c5d8d;
+  padding-left:15px;
+  padding-top:13px; 
+  padding-bottom:13px;
+}
 #footerCont {
   position: fixed; 
   top: 2000px; 
