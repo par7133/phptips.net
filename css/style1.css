@@ -2,6 +2,9 @@ body {
   font-family: Verdana, Sans, Helvetica;
   font-size: 14px;
 }
+a {
+  text-decoration:none;
+}
 .aaa {
   /*color:#8892bf;*/
   /*color: #824a14;*/
