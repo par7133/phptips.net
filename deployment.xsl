@@ -88,7 +88,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <tr>
         <td style="background-color:#18aed4; border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
           
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa3">all</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa3">all</a>
           &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa3">deployment</a>
           &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa3">security</a>
           
