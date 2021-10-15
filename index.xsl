@@ -139,12 +139,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
           <xsl:for-each select="CAT">
 		
-			    <xsl:sort select="CAT" data-type="text" order="ascending"/>
-
-          
           &#8201;&#8201;&#8201;<xsl:value-of select="[text()]"/>
-          
-
+    
 	      	</xsl:for-each>
 
         </td>  
