@@ -49,65 +49,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <meta name="author" content="5 Mode"/> 
      
 	    <link rel="shortcut icon" href="/res/favicon.ico"/>
-	  			
-      <style>
-        .aaa {
-          /*color:#8892bf;*/
-          /*color: #824a14;*/
-          color: #4c5d8d;
-          text-decoration: none;
-          font-weight:900;
-        }
-        .aaa2 {
-          color: #454545;
-          text-decoration: none;
-          font-weight:900;
-        }
-        .aaa2:hover {
-          color: #31bc31;
-        }
-        .aaa3 {
-          color: #FFFFFF;
-          text-decoration: none;
-          font-weight:900;
-        }
-        .aaa3:hover {
-          /*color: red;*/
-          text-decoration:underline;
-        }
-        #footerCont {
-          position: fixed; 
-          top: 2000px; 
-          left:-10px;
-          width: 102%; 
-          border: 1px solid #C2DBF2; 
-          padding: 7px; 
-          background: white; 
-          opacity: 0.3;
-          color:white; 
-          font-family: Sans;
-          font-size: 12px; 
-          text-align: center; 
-          z-index: 99998;
-        }
-        #footer {
-          position: fixed;
-          float: right;
-          top: 2000px; 
-          left:-10px;
-          width: 100%; 
-          border: 0px solid #C2DBF2; 
-          padding: 7px; 
-          opacity: 1.0;
-          color:black; 
-          font-family: Sans;
-          font-size: 12px; 
-          font-weight: 400;
-          text-align: right; 
-          z-index: 99999;
-        }  
-      </style>  
-    
+	  	
+      <link href="/css/style1.css" type="text/css" rel="stylesheet"/>
+     
       <script src="./js/jquery-3.1.0.min.js" type="text/javascript"></script>
     
 	  </HEAD>
@@ -251,17 +195,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            }
          }
       
-         function loadres() {
-         
-         }
-      
          function mymain() {
          
-           //alert("hello!");
-         
            setTimeout("setFooterPos()", 1000);
-         
-           //document.getElementById("tdl").style.min-height = parseInt(window.innerHeight) + "px"; 
+     
          } 
                      
          mymain();

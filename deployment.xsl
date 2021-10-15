@@ -50,54 +50,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
      
 	    <link rel="shortcut icon" href="/res/favicon.ico"/>
 	  			
-      <style>
-        .aaa {
-          /*color:#8892bf;*/
-          /*color: #824a14;*/
-          color: #4c5d8d;
-          text-decoration: none;
-          font-weight:900;
-        }
-        .aaa2 {
-          color: #454545;
-          text-decoration: none;
-          font-weight:900;
-        }
-        .aaa2:hover {
-          color: #31bc31;
-        }
-        #footerCont {
-          position: fixed; 
-          top: 2000px; 
-          left:-10px;
-          width: 102%; 
-          border: 1px solid #C2DBF2; 
-          padding: 7px; 
-          background: white; 
-          opacity: 0.3;
-          color:white; 
-          font-family: Sans;
-          font-size: 12px; 
-          text-align: center; 
-          z-index: 99998;
-        }
-        #footer {
-          position: fixed;
-          float: right;
-          top: 2000px; 
-          left:-10px;
-          width: 100%; 
-          border: 0px solid #C2DBF2; 
-          padding: 7px; 
-          opacity: 1.0;
-          color:black; 
-          font-family: Sans;
-          font-size: 12px; 
-          font-weight: 400;
-          text-align: right; 
-          z-index: 99999;
-        }  
-      </style>  
+      <link href="/css/style1.css" type="text/css" rel="stylesheet"/>
     
       <script src="./js/jquery-3.1.0.min.js" type="text/javascript"></script>
     
@@ -133,12 +86,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>   
       </tr>
       <tr>
-        <td style="border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
+        <td style="background-color:#18aed4; border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
           
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa2">all</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa2">deployment</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa2">security</a>
-
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa3">all</a>
+          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa3">deployment</a>
+          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa3">security</a>
+          
         </td>  
       </tr>     
 		  <tr>
@@ -174,7 +127,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <xsl:attribute name="target">_self</xsl:attribute> 
               <xsl:attribute name="class">aaa2</xsl:attribute>
               <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
-              &lt; &gt;&#8201;&#8201;<span style="white-space:no-wrap"><xsl:value-of select="TITLE"/></span>
+              <span style="color:gray">&lt; &gt;</span>&#8201;&#8201;<span style="white-space:no-wrap"><xsl:value-of select="TITLE"/></span>
             </a>
           </div>
 
@@ -242,17 +195,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            }
          }
       
-         function loadres() {
-         
-         }
-      
          function mymain() {
-         
-           //alert("hello!");
-         
            setTimeout("setFooterPos()", 1000);
-         
-           //document.getElementById("tdl").style.min-height = parseInt(window.innerHeight) + "px"; 
          } 
                      
          mymain();
