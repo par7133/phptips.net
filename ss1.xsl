@@ -62,7 +62,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           myXMLHTTPRequest2.send(null);
 
           xslStylesheet2 = myXMLHTTPRequest2.responseXML;
-          xsltProcessor2.importStylesheet2(xslStylesheet);
+          xsltProcessor2.importStylesheet(xslStylesheet);
 
           // load the xml file, example1.xml
           myXMLHTTPRequest2 = new XMLHttpRequest();
