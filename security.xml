@@ -48,6 +48,8 @@ the index.php file) and the static content of your web app; while in the Private
 dir you are going to set all the rest of your web app, that you will go to 
 include through the router or other mechanism.
 ]]></BODY>  
+    <SEE/>  
+		<SEEURL/>
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>1</INDEX>
@@ -66,6 +68,8 @@ exactly that your frontend webserver is most probably not configured
 to serve the .inc files. Remember that this choice is safe only when 
 it is adopted in conjunction with a directory separation approach.
 ]]></BODY>  
+    <SEE>Directory separation</SEE>  
+		<SEEURL>#1</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
 		<INDEX>2</INDEX>

@@ -46,7 +46,9 @@ There is no better way than including an ad-hoc init.inc file where to
 set all the needed resources, initialize session, cache, error
 handling, etc.
 ]]></BODY>    
-		<TYPE>tip</TYPE>
+    <SEE/>  
+		<SEEURL/>
+    <TYPE>tip</TYPE>
     <CAT>deployment</CAT>
 		<INDEX>1</INDEX>
 	</ITEM>
