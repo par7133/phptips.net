@@ -67,12 +67,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </tr>
       <tr>
         <td style="border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
+    
+          &#8201;&#8201;&#8201;&#8201;<a class="aaa2" href="#" onclick="loadData2('');">all</a>
           
           <xsl:for-each select="ITEM/CAT">
 		
           <xsl:sort select="text()" data-type="text" order="ascending"/>
     
-          &#8201;&#8201;&#8201;&#8201;<a class="aaa2" href="#" onclick="loadData2('');">all</a>
           &#8201;&#8201;&#8201;&#8201;
           <a>
             <xsl:attribute name="class">aaa2</xsl:attribute>
@@ -176,7 +177,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
           var myDOM2 = fragment2;
           
-          document.getElementById("content").textContent = "";
+          //document.getElementById("content").textContent = "";
           
           document.getElementById("content").appendChild(fragment2);
         }
