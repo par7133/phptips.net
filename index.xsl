@@ -72,7 +72,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           font-weight:900;
         }
         .aaa3:hover {
-          color: #31bc31;
+          color: red;
         }
         #footerCont {
           position: fixed; 
