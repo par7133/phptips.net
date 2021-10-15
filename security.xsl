@@ -41,7 +41,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  <HTML>
 	  <HEAD>
 
-      <TITLE>PHP Tips</TITLE>
+      <TITLE>PHP Tips: Security</TITLE>
 	  
 	  	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
 		  <meta name="description" content="Welcome to PHP Tips. Tips about PHP, its usage, application, deployment and behond.."/>
@@ -96,7 +96,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>  
       </tr>     
 		  <tr>
-		    <td width="74%" align="left" style="height:1900px; background-color:#4c5d8d; color:#FFFFFF; padding-top:10px; padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray; vertical-align:top;">
+		    <td width="70%" align="left" style="height:1900px; background-color:#4c5d8d; color:#FFFFFF; padding-top:10px; padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray; vertical-align:top;">
           
           <xsl:for-each select="ITEM[TYPE='tip' and CAT='security']">
 		
@@ -143,7 +143,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
         </td>
         
-        <td width="6%">
+        <td width="4%">
           &#8201;
         </td>  
       </tr>
@@ -208,6 +208,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          } 
                      
          mymain();
+         
+         window.addEventListener("resize", function() {
+            mymain();
+         });
+         
       ]]>   
 		  </script>
       
