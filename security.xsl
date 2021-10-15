@@ -62,7 +62,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <tr>
         <td class="header-td" colspan="3">
         
-          <div class="header-logo"><a href="/" class="aaa"><span style="color:black;"><i>php</i></span><span style="color:red;">tips</span></a></div>
+          <div class="header-logo"><a href="/" class="aaa"><span style="color:black;"><i>php</i></span><span style="color:red; font-size:20px;">tips</span></a></div>
           <div class="header-link"><a href="https://github.com/par7133/phptips.net/tree/main/downloads" class="aaa">Downloads</a></div>
           <div class="header-link"><a href="http://github.com/par7133/phptips.net" class="aaa">On Github</a></div>
           <div class="header-link"><a href="http://github.com/par7133/phptips.net/discussions" class="aaa">Ask</a></div>
