@@ -4,7 +4,7 @@
 		xmlns:xlink="http://www.w3.org/1999/xlink"
 		version="1.0"> 
 
-<xsl:output method="html"/>
+<xsl:output method="html" version="4"/>
 
 <!-- File name: index.xsl 
 BSD 3-Clause License
@@ -39,6 +39,123 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
 	<xsl:template match="CONTENT">
+
+<HTML>
+<HEAD>
+
+  <TITLE>PHP Tips</TITLE>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+  <meta name="description" content="Welcome to PHP Tips. Tips about PHP, its usage, application, deployment and behond.."/>
+  <meta name="robots" content="index,follow"/>
+  <meta name="author" content="5 Mode"/> 
+ 
+  <link rel="shortcut icon" href="/res/favicon.ico"/>
+
+  <style>
+    .aaa {
+      /*color:#8892bf;*/
+      /*color: #824a14;*/
+      color: #4c5d8d;
+      text-decoration: none;
+      font-weight:900;
+    }
+    .aaa2 {
+      color: #454545;
+      text-decoration: none;
+      font-weight:900;
+    }
+    .aaa2:hover {
+      color: #31bc31;
+    }
+    #footerCont {
+      position: fixed; 
+      top: 2000px; 
+      left:-10px;
+      width: 102%; 
+      border: 1px solid #C2DBF2; 
+      padding: 7px; 
+      background: white; 
+      opacity: 0.3;
+      color:white; 
+      font-family: Sans;
+      font-size: 12px; 
+      text-align: center; 
+      z-index: 99998;
+    }
+    #footer {
+      position: fixed;
+      float: right;
+      top: 2000px; 
+      left:-10px;
+      width: 100%; 
+      border: 0px solid #C2DBF2; 
+      padding: 7px; 
+      opacity: 1.0;
+      color:black; 
+      font-family: Sans;
+      font-size: 12px; 
+      font-weight: 400;
+      text-align: right; 
+      z-index: 99999;
+    }  
+  </style>  
+
+  <script src="./js/jquery-3.1.0.min.js" type="text/javascript"></script>
+
+  <script>
+    
+    var xslStylesheet;
+    var xsltProcessor = new XSLTProcessor();
+    var myDOM;
+
+    var xmlDoc;
+
+    function loadData(stylesheet) {
+
+      switch (stylesheet) {
+         case "":
+           ss = "ss1.xsl";
+           break; 
+         default:
+           ss = stylesheet + ".xsl";
+           break; 
+      } 
+
+      // load the xslt file, example1.xsl
+      var myXMLHTTPRequest = new XMLHttpRequest();
+      myXMLHTTPRequest.open("GET", ss, false);
+      myXMLHTTPRequest.send(null);
+
+      xslStylesheet = myXMLHTTPRequest.responseXML;
+      xsltProcessor.importStylesheet(xslStylesheet);
+
+      // load the xml file, example1.xml
+      myXMLHTTPRequest = new XMLHttpRequest();
+      myXMLHTTPRequest.open("GET", "data.xml", false);
+      myXMLHTTPRequest.send(null);
+
+      xmlDoc = myXMLHTTPRequest.responseXML;
+
+      var fragment = xsltProcessor.transformToFragment(xmlDoc, document);
+
+      myDOM = fragment;
+
+      document.getElementById("content").textContent = "";
+
+      document.getElementById("content").appendChild(fragment);
+    }
+   
+    window.addEventListener("load", function() {
+      loadData("");
+    });
+    
+  </script>  
+
+</HEAD>
+
+<BODY style="background-color:#FFFFFF; margin:0">
+
 
       <table border="0" width="100%" height="100" style="border:0;margin:0;">
  
@@ -146,53 +263,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <div id="footerCont">&#8201;</div>
       <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&#8201;&#8201;<a class="aaa" href="dd.html">Disclaimer</a>.&#8201;&#8201;A <a class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://wysiwyg.systems">WYSIWYG</a> system. Some rights reserved.</span></div>
 
-      <script>
-      <![CDATA[
-        var xslStylesheet2;
-        var xsltProcessor2 = new XSLTProcessor();
-        
-        var myDOM2;
-        
-        var xmlDoc2;
-
-        function loadData2(stylesheet) {
-
-          switch (stylesheet) {
-             case "":
-               ss = "ss1.xsl";
-               break; 
-             default:
-               ss = stylesheet + ".xsl";
-               break; 
-          } 
-
-          // load the xslt file, example1.xsl
-          var myXMLHTTPRequest2 = new XMLHttpRequest();
-          myXMLHTTPRequest2.open("GET", ss, false);
-          myXMLHTTPRequest2.send(null);
-
-          xslStylesheet2 = myXMLHTTPRequest2.responseXML;
-          xsltProcessor2.importStylesheet(xslStylesheet);
-
-          // load the xml file, example1.xml
-          myXMLHTTPRequest2 = new XMLHttpRequest();
-          myXMLHTTPRequest2.open("GET", "data.xml", false);
-          myXMLHTTPRequest2.send(null);
-
-          xmlDoc2 = myXMLHTTPRequest2.responseXML;
-
-          var fragment2 = xsltProcessor2.transformToFragment(xmlDoc2, document);
-          
-          var myDOM2 = fragment2;
-          
-          //document.getElementById("content").textContent = "";
-          
-          document.getElementById("content").appendChild(fragment2);
-        }
-       ]]>
-      </script>  
-
-
 	  	<script>
         
         var linkt = [];
@@ -258,6 +328,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          mymain();
       ]]>   
 		  </script>
+
+</BODY>
+</HTML>
       
 	</xsl:template>
 
