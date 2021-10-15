@@ -145,7 +145,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       //document.getElementById("content").appendChild(fragment);
       
-      $(document).html(myDOM);
+      document.innerHTML = myDOM;
     }
    
     window.addEventListener("load", function() {
