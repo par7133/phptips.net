@@ -105,10 +105,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			    <div>
             <xsl:attribute name="id"><xsl:value-of select="ID"/></xsl:attribute>
             <xsl:attribute name="style">padding:10px;</xsl:attribute>
-		      	<span style="font-size:14px;font-style:italic">
+		      	<span style="font-style:italic">
               <xsl:value-of select="DATE"/>
             </span><br/>
-            <span style="font-size:14px; font-weight:900; color:#31bc31;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</span>&#8201;<span style="font-size:14px; font-weight:900;"><xsl:value-of select="TITLE"/></span>
+            <span style="font-weight:900; color:#31bc31;">[&#8201;<xsl:value-of select="CAT"/>&#8201;]</span>&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
             <hr style="border-top: 1px dotted lightgray;"/>    
             <pre><xsl:value-of select="BODY"/></pre>
           </div>
