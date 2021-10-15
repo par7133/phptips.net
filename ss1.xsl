@@ -138,7 +138,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       <div id="footerCont">&#8201;</div>
       <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&#8201;&#8201;<a class="aaa" href="dd.html">Disclaimer</a>.&#8201;&#8201;A <a class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://wysiwyg.systems">WYSIWYG</a> system. Some rights reserved.</span></div>
 
-      <script type="text/javascript">
+      <script>
       <![CDATA[
         var xslStylesheet2;
         var xsltProcessor2 = new XSLTProcessor();
@@ -160,7 +160,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           // load the xslt file, example1.xsl
           var myXMLHTTPRequest2 = new XMLHttpRequest();
-          myXMLHTTPRequest2.open("GET", ss, true);
+          myXMLHTTPRequest2.open("GET", ss, false);
           myXMLHTTPRequest2.send(null);
 
           xslStylesheet2 = myXMLHTTPRequest2.responseXML;
@@ -168,7 +168,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           // load the xml file, example1.xml
           myXMLHTTPRequest2 = new XMLHttpRequest();
-          myXMLHTTPRequest2.open("GET", "data.xml", true);
+          myXMLHTTPRequest2.open("GET", "data.xml", false);
           myXMLHTTPRequest2.send(null);
 
           xmlDoc2 = myXMLHTTPRequest2.responseXML;
@@ -185,7 +185,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </script>  
 
 
-	  	<script type="text/javascript">
+	  	<script>
         
         var linkt = [];
         var linkids = [];
