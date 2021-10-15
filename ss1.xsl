@@ -1,8 +1,10 @@
+<?xml version="1.0"?>
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:xlink="http://www.w3.org/1999/xlink"
 		version="1.0"> 
 
-<xsl:output method="html" version="4"/>
+<xsl:output method="html"/>
 
 <!-- File name: index.xsl 
 BSD 3-Clause License
@@ -39,6 +41,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<xsl:template match="CONTENT">
 
       <table border="0" width="100%" height="100" style="border:0;margin:0;">
+ 
       <tr>
         <td width="100%" style="background-color:#e7e7e7;border-bottom: 3.5px solid #4c5d8d; padding-left:10px; padding-top:13px; padding-bottom:13px;" align="left" colspan="3">
           &#8201;&#8201;&#8201;<a href="/" class="aaa"><span style="font-size:32px;color:black;"><i>php</i></span><span style="color:red;">tips</span></a>
@@ -65,10 +68,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>   
       </tr>
+ 
+ 
       <tr>
         <td style="border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
     
-          &#8201;&#8201;&#8201;&#8201;<a class="aaa2" href="#" onclick="loadData2('');">all</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a class="aaa2" href="#" onclick="loadData2('');">all</a>
           
           <xsl:for-each select="ITEM/CAT">
 		
@@ -85,7 +90,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	      	</xsl:for-each>
 
         </td>  
-      </tr>     
+      </tr>
+ 
+      
 		  <tr>
 		    <td width="74%" align="left" style="height:1900px; background-color:#4c5d8d; color:#FFFFFF; padding-top:10px; padding-left:10px; padding-right:10px; border-right: 0.5px solid lightgray; vertical-align:top;">
           
@@ -133,6 +140,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           &#8201;
         </td>  
       </tr>
+      
       </table>
       
       <div id="footerCont">&#8201;</div>
