@@ -133,11 +133,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>   
       </tr>
       <tr>
-        <td style="background-color:#18aed4; color:#ffffff; border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
+        <td style="background-color:#18aed4; border-bottom: 3.5px solid #4c5d8d;padding-top:13px; padding-bottom:13px;" colspan="3">
           
-          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa2">all</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa2">deployment</a>
-          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa2">security</a>
+          &#8201;&#8201;&#8201;&#8201;&#8201;<a href="/" class="aaa2" style="color:#ffffff;">all</a>
+          &#8201;&#8201;&#8201;&#8201;<a href="/deployment.xml" class="aaa2" style="color:#ffffff;">deployment</a>
+          &#8201;&#8201;&#8201;&#8201;<a href="/security.xml" class="aaa2" style="color:#ffffff;">security</a>
           
         </td>  
       </tr>     
