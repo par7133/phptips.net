@@ -59,14 +59,20 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           font-weight:900;
         }
         .aaa2 {
-          /*color:#8892bf;*/
-          /*color: #824a14;*/
           color: #454545;
           text-decoration: none;
           font-weight:900;
         }
         .aaa2:hover {
           color: #31bc31;
+        }
+        .aaa3 {
+          color: #31bc31;
+          text-decoration: none;
+          font-weight:900;
+        }
+        .aaa2:hover {
+          color: red;
         }
         #footerCont {
           position: fixed; 
