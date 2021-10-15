@@ -56,7 +56,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     
 	  </HEAD>
 
-    <BODY style="background-color:#FFFFFF; margin:0">
+    <BODY>
       
       <table border="0" width="100%" height="100%" style="border:0;margin:0;">
       <tr>
