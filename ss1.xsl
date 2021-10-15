@@ -141,7 +141,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         var xslStylesheet2;
         var xsltProcessor2 = new XSLTProcessor();
 
-        var xmlDoc;
+        var xmlDoc2;
 
         function loadData2(stylesheet) {
 
@@ -167,9 +167,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           myXMLHTTPRequest2.open("GET", "data.xml", false);
           myXMLHTTPRequest2.send(null);
 
-          xmlDoc = myXMLHTTPRequest2.responseXML;
+          xmlDoc2 = myXMLHTTPRequest2.responseXML;
 
-          var fragment2 = xsltProcessor2.transformToFragment(xmlDoc, document);
+          var fragment2 = xsltProcessor2.transformToFragment(xmlDoc2, document);
 
           document.getElementById("content").appendChild(fragment2);
         }
