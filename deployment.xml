@@ -42,7 +42,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <BODY><![CDATA[
 Having wrote also just a small router for your web app you remain
 to decide where to initialize all your web app const, classes, etc.
-There is no better way than including an ad-hoc init.inc (or .php) file where to 
+There is no better way than including an ad-hoc init.inc file where to 
 set all the needed resources, initialize session, cache, error
 handling, etc.
 ]]></BODY>    
