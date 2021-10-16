@@ -4,7 +4,7 @@
 
 <xsl:output method="html" version="4"/>
 
-<!-- File name: index.xsl 
+<!-- File name: deployment.xsl 
 BSD 3-Clause License
 
 Copyright (c) 2021, 2024, 5 Mode
