@@ -184,8 +184,8 @@ that purpose:
 
 echo $var1 ?? $var2;    
 ]]></BODY>  
-    <SEE/>  
-		<SEEURL/>
+    <SEE>Null Coalescing Operator</SEE>  
+		<SEEURL>http://php.net/manual/en/language.operators.comparison.php</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>syntax</CAT>
 		<INDEX>8</INDEX>
