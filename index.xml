@@ -152,4 +152,23 @@ is so. However, there are some tuning practices we can use with ease:
     <CAT>tuning</CAT>
 		<INDEX>6</INDEX>
 	</ITEM>
+  <ITEM>
+    <ID>7</ID>
+    <DATE>Sat October 16th 2021</DATE>
+    <TITLE>Simplicity makes the trick</TITLE>
+    <BODY><![CDATA[      
+All of us feel fantastic making great programming. But for one
+reason or the other, who admitted finally along their careers that 
+*doing it simple* is important was always right: it let us have
+managiable and reusable code with a strong cut on documentation
+and commenting. Do it simple for who? Clearly for ourself
+but mainly for all the other people who work with us and
+*consume* PHP.   
+]]></BODY>  
+    <SEE/>  
+		<SEEURL/>
+		<TYPE>tip</TYPE>
+    <CAT>syntax</CAT>
+		<INDEX>7</INDEX>
+	</ITEM>
 </CONTENT>

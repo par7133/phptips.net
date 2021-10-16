@@ -4,7 +4,7 @@
 
 <xsl:output method="html" version="4"/>
 
-<!-- File name: data.xsl 
+<!-- File name: syntax.xsl 
 BSD 3-Clause License
 
 Copyright (c) 2021, 2024, 5 Mode
@@ -41,7 +41,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  <HTML>
 	  <HEAD>
 
-      <TITLE>PHP Tips: data</TITLE>
+      <TITLE>PHP Tips: syntax</TITLE>
 	  
 	  	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
 		  <meta name="description" content="Welcome to PHP Tips. Tips about PHP, its usage, application, deployment and behond.."/>
@@ -71,7 +71,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="search-cont"><input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/>&#8201;&#8201;</div>
           
           <datalist id="liveres">
-          <xsl:for-each select="ITEM[TYPE='tip' and CAT='data']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='syntax']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 
@@ -93,15 +93,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="cat"><a href="/deployment.xml" class="aaa3">deployment</a></div>
           <div class="cat"><a href="/security.xml" class="aaa3">security</a></div>
           <div class="cat"><a href="/tuning.xml" class="aaa3">tuning</a></div>
-          <div class="cat"><a href="/data.xml" class="aaa3-selected">data</a></div>
-          <div class="cat"><a href="/syntax.xml" class="aaa3">syntax</a></div>
+          <div class="cat"><a href="/data.xml" class="aaa3">data</a></div>
+          <div class="cat"><a href="/syntax.xml" class="aaa3-selected">syntax</a></div>
           
         </td>  
       </tr>     
 		  <tr>
 		    <td class="tips-td">
           
-          <xsl:for-each select="ITEM[TYPE='tip' and CAT='data']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='syntax']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
@@ -139,7 +139,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         
         <td id="tdl" class="index-td">
 
-          <xsl:for-each select="ITEM[TYPE='tip' and CAT='data']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='syntax']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 		
@@ -172,7 +172,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         var linkt = [];
         var linkids = [];
         
-        <xsl:for-each select="ITEM[TYPE='tip' and CAT='data']">
+        <xsl:for-each select="ITEM[TYPE='tip' and CAT='syntax']">
   
         <xsl:sort select="ID" data-type="number" order="ascending"/>
   
