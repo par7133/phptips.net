@@ -41,7 +41,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  <HTML>
 	  <HEAD>
 
-      <TITLE>PHP Tips: All the tips..</TITLE>
+      <TITLE>PHP Tips: All</TITLE>
 	  
 	  	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
 		  <meta name="description" content="Welcome to PHP Tips. Tips about PHP, its usage, application, deployment and behond.."/>
