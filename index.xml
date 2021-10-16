@@ -98,8 +98,8 @@ it is adopted in conjunction with a directory separation approach.
     <BODY><![CDATA[
 PHP language is continuosly evolving and assimilating new functionalities 
 becoming more fast too. 
-Beside this point it is nice to have coding good practices and a profiling 
-tool to tune your own PHP code: Webgrind is surely the tool that needs to 
+Beside this it is nice to have coding good practices and profiling 
+tools to tune your own PHP code: Webgrind is surely the tool that needs to 
 be in your coding bag. It is a web app, written in PHP, easy to deploy 
 and easy to understand (that is never too bad); it makes use of Xdebug 
 under the cover.  
