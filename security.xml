@@ -57,7 +57,7 @@ include through the router or other mechanism.
   <ITEM>
     <ID>3</ID>
     <DATE>Fri October 15th 2021</DATE>
-    <TITLE>Beautiful php, secret include</TITLE>
+    <TITLE>Beautiful php, secrets included</TITLE>
     <BODY><![CDATA[
 When you are going to write some code that needs to be *recognized*
 and *served* by the webserver you can write it in a *beautiful* .php
