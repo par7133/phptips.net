@@ -93,7 +93,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="cat"><a href="/deployment.xml" class="aaa3">deployment</a></div>
           <div class="cat"><a href="/security.xml" class="aaa3">security</a></div>
           <div class="cat"><a href="/tuning.xml" class="aaa3-selected">tuning</a></div>
-          <div class="cat"><a href="/data.xml" class="aaa3">tuning</a></div>
+          <div class="cat"><a href="/data.xml" class="aaa3">data</a></div>
           
         </td>  
       </tr>     
