@@ -45,7 +45,7 @@ becoming more fast too.
 Beside this point it is nice to have coding good practices and a profiling 
 tool to tune your own PHP code: Webgrid is surely the tool that needs to 
 be in your coding bag. It is a web app, written in PHP, easy to implement 
-and easy to understand (that is never too bad), it makes use of Xdebug 
+and easy to understand (that is never too bad); it makes use of Xdebug 
 under the cover.  
 ]]></BODY>  
     <SEE>Webgrind</SEE>  
