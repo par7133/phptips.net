@@ -178,7 +178,7 @@ but mainly for all the other people who work with us and
     <BODY><![CDATA[      
 Undubtly PHP function isset() miss a default value when all
 of us are searching to add it to its implementation....
-It is quite *simple* to write our own *simple* custom function 
+Indeed it is quite *simple* to write our own *simple* custom function 
 but let's do it more *simple*, the mysterious null coaleshing operator 
 comes really in handy for our purpose:
 
