@@ -51,7 +51,7 @@ object and properties fashion like in this way:
 echo $content->tip[0]->body;  
 ]]></BODY>  
     <SEE>Basic SimpleXML usage</SEE>  
-		<SEEURL>http://php.net/manual/en/simplexml.example-basic.php</SEEURL>
+		<SEEURL>http://php.net/manual/en/simplexml.examples-basic.php</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>data</CAT>
 		<INDEX>1</INDEX>
