@@ -54,4 +54,27 @@ under the cover.
     <CAT>tuning</CAT>
 		<INDEX>1</INDEX>
 	</ITEM>
+  <ITEM>
+    <ID>6</ID>
+    <DATE>Sat October 16th 2021</DATE>
+    <TITLE>Performance at the first glance</TITLE>
+    <BODY><![CDATA[
+Do not hurry, John Doe.. It is not arrived the time to scale yett! 
+But, - maybe - have to always use good coding best practices, mh? 
+Prefance, no one has declared the 10 PHP commandments, yet - and 
+lucky it is so: we can choose by our own. 
+However, there are some tuning practices we can use with ease: 
+1. Take advantage of type hints since PHP ver 7.
+2. Set variable types with settype.
+3. Pass and "consume" arrays by reference.
+4. Use overwhelming quantity of constants.
+6. Prefer explicit to implicit type conversions.
+and more to come.. 
+]]></BODY>  
+    <SEE/>  
+		<SEEURL/>
+		<TYPE>tip</TYPE>
+    <CAT>tuning</CAT>
+		<INDEX>2</INDEX>
+	</ITEM>  
 </CONTENT>
