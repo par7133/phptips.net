@@ -91,4 +91,23 @@ it is adopted in conjunction with a directory separation approach.
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
 	</ITEM>
+	<ITEM>
+    <ID>4</ID>
+    <DATE>Sat October 16th 2021</DATE>
+    <TITLE>The Oracle to my code secrets..</TITLE>
+    <BODY><![CDATA[
+PHP language is continuosly evolving and assimilating new functionalities 
+becoming more fast too. 
+Beside this point it is nice to have coding good practices and a profiling 
+tool to tune your own PHP code: Webgrid is surely the tool that needs to 
+be in your coding bag. It is a web app, written in PHP, easy to implement 
+and easy to understand (that is never too bad), it makes use of Xdebug 
+under the cover.  
+]]></BODY>  
+    <SEE>Webgrind</SEE>  
+		<SEEURL>http://github.com/jokkedk/webgrind</SEEURL>
+		<TYPE>tip</TYPE>
+    <CAT>tuning</CAT>
+		<INDEX>4</INDEX>
+	</ITEM>  
 </CONTENT>
