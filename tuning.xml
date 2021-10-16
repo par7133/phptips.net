@@ -61,7 +61,7 @@ under the cover.
     <BODY><![CDATA[
 Do not hurry John Doe, it is not arrived the time to scale yet. 
 But - maybe - have to always use good coding best practices, mh? 
-Sure no one say us what to obay to coding in PHP - and lucky it 
+Sure no one say us what to obay to while coding in PHP - and lucky it 
 is so.. However, there are some practices we can use with ease: 
 - Take advantage of type hints since PHP ver 7.
 - Set variable types with settype.
