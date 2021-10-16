@@ -134,7 +134,7 @@ a {
   display:none;
 }
 .search-box {
-  width:100%;
+  width:80%;
   height:24px;
   /*min-width:29%;*/
   font-size:13px;
@@ -144,7 +144,6 @@ a {
   float:right;
   position:relative;
   top:+0px;
-  padding-right:3%;
 }
 .tips-td {
   width:70%; 
