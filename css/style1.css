@@ -140,11 +140,11 @@ a {
   font-size:13px;
 }
 .search-cont {
-  width:34%;
+  width:33%;
   float:right;
   position:relative;
   top:+0px;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .tips-td {
   width:70%; 
