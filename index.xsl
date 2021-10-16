@@ -68,7 +68,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="header-link"><a href="http://github.com/par7133/phptips.net/discussions" class="aaa">Talks</a></div>
           <div class="header-link"><a href="mailto:info@phptips.net" class="aaa">Feedback</a></div>
           
-          <div class="search-cont"><input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/>&#8201;&#8201;</div>
+          <div class="search-cont"><input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/></div>
           
           <datalist id="liveres">
           <xsl:for-each select="ITEM[TYPE='tip']">
