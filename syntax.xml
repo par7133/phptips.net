@@ -54,4 +54,24 @@ but mainly for all the other people who work with us and
     <CAT>syntax</CAT>
 		<INDEX>1</INDEX>
 	</ITEM>
+  <ITEM>
+    <ID>8</ID>
+    <DATE>Sat October 16th 2021</DATE>
+    <TITLE>Null coalescing is yet your friend</TITLE>
+    <BODY><![CDATA[      
+Undubtly PHP function isset() miss a default value when all
+of us are searching to add it to its implementation....
+It is quite simple to write our own *simple* custom function 
+but let's do it more simple, the mysterious null coaleshing operator 
+comes really in handy for our purpose:
+
+echo $var1 ?? $var2;    
+]]></BODY>  
+    <SEE>Null Coalescing Operator</SEE>  
+		<SEEURL>http://php.net/manual/en/language.operators.comparison.php</SEEURL>
+		<TYPE>tip</TYPE>
+    <CAT>syntax</CAT>
+		<INDEX>2</INDEX>
+	</ITEM>
+
 </CONTENT>
