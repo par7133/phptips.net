@@ -133,7 +133,7 @@ a {
 .search-box {
   width:29%;
   height:24px;
-  min-width:375px;
+  min-width:29%;
   font-size:13px;
 }
 .search-cont {
