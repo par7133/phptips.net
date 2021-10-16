@@ -121,7 +121,7 @@ You can read an XML with file() and parse it by your onw logic, with
 the mere help of reg expressions and string functions - umh. 
 You can read an XML file and parsing it by events - umh.
 Finally SimpleXML comes in handy letting us access an XML in
-n object and properties fashion like in this way:
+object and properties fashion like in this way:
 
 echo $content->tip[0]->body;  
 ]]></BODY>  
