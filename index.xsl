@@ -195,9 +195,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </script>
          
       <script src="./js/common.js" type="text/javascript"></script>
-      
-	  </BODY>
-	  </HTML>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
@@ -216,7 +213,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 <noscript><div><img src="https://mc.yandex.ru/watch/85938360" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-     	
+      
+	  </BODY>
+	  </HTML>
+
 	</xsl:template>
 
 </xsl:stylesheet> 
