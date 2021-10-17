@@ -59,14 +59,14 @@ handling, etc.
     <BODY><![CDATA[      
 Since PHP 5.6 lot of time has gone and lucky it is so: since 2014, some 
 years of support and bug fixes has been going on under development. 
-Less fashinating is the new that we need to keep our servers updated
-to the last version of PHP,and expecially thinking to your production
+Less fashinating is the fact that we need to keep our servers updated
+to the last version of PHP, and expecially thinking to your production
 server is not so *healthy*. Two news come useful for these cases. First,
 PHP latest versions have a good back compatibility with their ancestors.
-Second,, devops software like Docker comes in handy to solve *little*
-deployment efforts. Anyway your *devview* should focus on this doc: 
+Second, devops software like Docker comes in handy to solve *little*
+deployment prbs. Anyway your *devview* should focus on this doc: 
 ]]></BODY>  
-    <SEE>Suported versions</SEE>  
+    <SEE>Supported versions</SEE>  
 		<SEEURL>https://php.net/supported-versions</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>deployment</CAT>
