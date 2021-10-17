@@ -38,7 +38,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <ITEM>
     <ID>9</ID>
     <DATE>Sun October 17th 2021</DATE>
-    <TITLE>Classic ASP string polyfills</TITLE>
+    <TITLE>String polyfills from Classic ASP</TITLE>
     <BODY><![CDATA[      
 Switcing to PHP development it could be easy to find yourself sometimes 
 breaking into obstruct syntax and not so simple-as-on-the-go instructions.
@@ -58,7 +58,7 @@ These are some string polyfills created behind Classic ASP:
   <ITEM>
     <ID>10</ID>
     <DATE>Sun October 17th 2021</DATE>
-    <TITLE>Classic ASP date/time polyfills</TITLE>
+    <TITLE>Date/time polyfills from Classic ASP</TITLE>
     <BODY><![CDATA[      
 Switcing to PHP development it could be easy to find yourself sometimes 
 breaking into obstruct syntax and not so simple-as-on-the-go instructions.
