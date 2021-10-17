@@ -98,71 +98,82 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>  
       </tr>     
-		  <tr>
-		    <td class="tips-td">
-          
-          <xsl:for-each select="ITEM[TYPE='tip' and CAT='tuning']">
-		
-			    <xsl:sort select="ID" data-type="number" order="ascending"/>
-		
-			    <div>
-            <xsl:attribute name="id"><xsl:value-of select="ID"/></xsl:attribute>
-            <xsl:attribute name="style">padding:10px;</xsl:attribute>
-		      	<span style="font-style:italic">
-              <xsl:value-of select="DATE"/>
-            </span><br/>
-            <a>
-              <xsl:attribute name="href"><xsl:value-of select="CAT"/>.xml</xsl:attribute>
-              <xsl:attribute name="style">font-weight:900; color:#31bc31;</xsl:attribute>
-              [&#8201;<xsl:value-of select="CAT"/>&#8201;]
-            </a>
-            &#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
-            <hr class="hr-tips"/>    
-            <pre><xsl:value-of select="BODY"/></pre>
+      <tr>
+        <td id="content-td" style="width:100%;height:100%;boder:1px solid red;">
+      
+        <div id="content-cont" style="height:100%;overflow-y:scroll;">
+
+        <table style="border:0;margin:0;padding:0;width:100%;height:1900px;"> 
+        <tr>
+          <td class="tips-td">
             
-            <xsl:choose>
-            <xsl:when test="SEE!=''">
-              see:&#8201;
+            <xsl:for-each select="ITEM[TYPE='tip' and CAT='tuning']">
+      
+            <xsl:sort select="ID" data-type="number" order="ascending"/>
+      
+            <div>
+              <xsl:attribute name="id"><xsl:value-of select="ID"/></xsl:attribute>
+              <xsl:attribute name="style">padding:10px;</xsl:attribute>
+              <span style="font-style:italic">
+                <xsl:value-of select="DATE"/>
+              </span><br/>
               <a>
-                <xsl:attribute name="href"><xsl:value-of select="SEEURL"/></xsl:attribute>
-                <xsl:attribute name="style">font-weight:600; font-style:italic; color:#FFFFFF;</xsl:attribute>
-                "<xsl:value-of select="SEE"/>"
-              </a>  
-            </xsl:when> 
-            </xsl:choose>
+                <xsl:attribute name="href"><xsl:value-of select="CAT"/>.xml</xsl:attribute>
+                <xsl:attribute name="style">font-weight:900; color:#31bc31;</xsl:attribute>
+                [&#8201;<xsl:value-of select="CAT"/>&#8201;]
+              </a>
+              &#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
+              <hr class="hr-tips"/>    
+              <pre><xsl:value-of select="BODY"/></pre>
+              
+              <xsl:choose>
+              <xsl:when test="SEE!=''">
+                see:&#8201;
+                <a>
+                  <xsl:attribute name="href"><xsl:value-of select="SEEURL"/></xsl:attribute>
+                  <xsl:attribute name="style">font-weight:600; font-style:italic; color:#FFFFFF;</xsl:attribute>
+                  "<xsl:value-of select="SEE"/>"
+                </a>  
+              </xsl:when> 
+              </xsl:choose>
 
-          </div>
-		
-	      	</xsl:for-each>
+            </div>
+      
+            </xsl:for-each>
+            
+          </td>
           
-        </td>
+          <td id="tdl" class="index-td">
+
+            <xsl:for-each select="ITEM[TYPE='tip' and CAT='tuning']">
+      
+            <xsl:sort select="ID" data-type="number" order="ascending"/>
+      
+            <div class="index-ve-cont">
+              <a>
+                <xsl:attribute name="target">_self</xsl:attribute> 
+                <xsl:attribute name="class">aaa2</xsl:attribute>
+                <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
+                <span style="color:lightgray">&lt; &gt;</span>&#8201;&#8201;<span style="white-space:no-wrap"><xsl:value-of select="TITLE"/></span>
+              </a>
+            </div>
+
+            <hr class="hr-index"/>  
+      
+            </xsl:for-each>
+
+          </td>
+          
+          <td width="4%">
+            &#8201;
+          </td>  
+        </tr>
+        </table>
+        </div>
         
-        <td id="tdl" class="index-td">
-
-          <xsl:for-each select="ITEM[TYPE='tip' and CAT='tuning']">
-		
-			    <xsl:sort select="ID" data-type="number" order="ascending"/>
-		
-          <div class="index-ve-cont">
-            <a>
-              <xsl:attribute name="target">_self</xsl:attribute> 
-              <xsl:attribute name="class">aaa2</xsl:attribute>
-              <xsl:attribute name="href">#<xsl:value-of select="ID"/></xsl:attribute>
-              <span style="color:lightgray">&lt; &gt;</span>&#8201;&#8201;<span style="white-space:no-wrap"><xsl:value-of select="TITLE"/></span>
-            </a>
-          </div>
-
-          <hr class="hr-index"/>  
-    
-	      	</xsl:for-each>
-
-        </td>
-        
-        <td width="4%">
-          &#8201;
-        </td>  
+      </td>  
       </tr>
-      </table>
+      </table>  
       
       <div id="footerCont">&#8201;</div>
       <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&#8201;&#8201;<a class="aaa" href="dd.html">Disclaimer</a>.&#8201;&#8201;A <a class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://wysiwyg.systems">WYSIWYG</a> system. Some rights reserved.</span></div>
@@ -219,6 +230,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          function mymain() {
          
            setTimeout("setFooterPos()", 1000);
+
+           $("#content-td").css("height", (parseInt(window.innerHeight) - 118) + "px");
+           $("#content-cont").css("height", (parseInt(window.innerHeight) - 118) + "px"); 
      
          } 
                      
