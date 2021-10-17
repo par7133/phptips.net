@@ -7,12 +7,19 @@ body {
 a {
   text-decoration:none;
 }
-.aaa {
+.header-aaa {
   /*color:#8892bf;*/
   /*color: #824a14;*/
   color: #4c5d8d;
   text-decoration: none;
   font-weight:700;
+}
+.aaa {
+  /*color:#8892bf;*/
+  /*color: #824a14;*/
+  color: #4c5d8d;
+  text-decoration: none;
+  font-weight:900;
 }
 .aaa2 {
   color: #454545;
