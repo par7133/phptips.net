@@ -224,7 +224,7 @@ PHP latest versions have a good back compatibility with their ancestors.
 Second, devops software like Docker comes in handy to solve *little*
 deployment prbs. Anyway your *devview* should focus on this doc: 
 ]]></BODY>  
-    <SEE>Suported versions</SEE>  
+    <SEE>Supported versions</SEE>  
 		<SEEURL>https://php.net/supported-versions</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>deployment</CAT>
@@ -244,7 +244,7 @@ PHP latest versions have a good back compatibility with their ancestors.
 Second, devops software like Docker comes in handy to solve *little*
 deployment prbs. Anyway your *devview* should focus on this doc: 
 ]]></BODY>  
-    <SEE>Suported versions</SEE>  
+    <SEE>Supported versions</SEE>  
 		<SEEURL>https://php.net/supported-versions</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
