@@ -40,7 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <DATE>Sun October 17th 2021</DATE>
     <TITLE>String polyfills from Classic ASP</TITLE>
     <BODY><![CDATA[      
-Switcing to PHP development it could be easy to find yourself sometimes 
+Switching to PHP development it could be easy to find yourself sometimes 
 breaking into obstruct syntax and not so simple-as-on-the-go instructions.
 On the obstruct syntax, you can fix your coding erasing the more naif or
 depracated or unsafe code (pay attention: it exists!). On the simplicity,
@@ -60,7 +60,7 @@ These are some string polyfills created behind Classic ASP:
     <DATE>Sun October 17th 2021</DATE>
     <TITLE>Date/time polyfills from Classic ASP</TITLE>
     <BODY><![CDATA[      
-Switcing to PHP development it could be easy to find yourself sometimes 
+Switching to PHP development it could be easy to find yourself sometimes 
 breaking into obstruct syntax and not so simple-as-on-the-go instructions.
 On the obstruct syntax, you can fix your coding erasing the more naif or
 depracated or unsafe code (pay attention: it exists!). On the simplicity,
