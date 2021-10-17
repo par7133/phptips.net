@@ -158,7 +158,7 @@ is so. However, there are some tuning practices we can use with ease:
     <TITLE>Simplicity makes the trick</TITLE>
     <BODY><![CDATA[      
 All of us feel fantastic making great programming. But for one
-reason or the other, who admitted finally along their careers that 
+reason or the others, who admitted finally along their careers that 
 *doing it simple* is important was always right: it let us have
 managiable and reusable code with a strong cut on documentation
 and commenting. Do it simple for who? Clearly for ourself
