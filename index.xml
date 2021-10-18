@@ -181,7 +181,7 @@ Since PHP 5.6 lot of time has gone and lucky it is so: since 2014, some years of
     <DATE>Sun October 17th 2021</DATE>
     <TITLE>Final gel to a brilliant skull</TITLE>
     <BODY><![CDATA[      
-There are classes and classes. When we are going to write just some *perfect* code with all the best practices as possible then the final keyword is certainly something we should take in careful consideration both on security and on efficiency side of our coding. When your working on big project, strong versioning and many clients.. well, the full inheritance flexibility is certainly something desirable. 
+There are classes and classes. When we are going to write just some *perfect* code with all the best practices as possible then the final keyword is certainly something we should take in careful consideration both on security and on efficiency side of our coding. When we are working on big project, strong versioning and many clients.. well, the full inheritance flexibility is certainly something desirable. 
 
 However the Final keyword is definitely something you should check out: 
 ]]></BODY>  
