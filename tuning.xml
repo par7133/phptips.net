@@ -40,13 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>The oracle to my code secrets</TITLE>
     <BODY><![CDATA[
-PHP language is continuosly evolving and assimilating new functionalities 
-becoming more fast too. 
-Beside this it is nice to have coding good practices and profiling 
-tools to tune your own PHP code: Webgrind is surely the tool that needs to 
-be in your coding bag. It is a web app, written in PHP, easy to deploy 
-and easy to understand (that is never too bad); it makes use of Xdebug 
-under the cover.  
+PHP language is continuosly evolving and assimilating new functionalities becoming more fast too. Beside this it is nice to have coding good practices and profiling tools to tune your own PHP code: Webgrind is surely the tool that needs to be in your coding bag. It is a web app, written in PHP, easy to deploy and easy to understand (that is never too bad); it makes use of Xdebug under the cover.  
 ]]></BODY>  
     <SEE>Webgrind</SEE>  
 		<SEEURL>http://github.com/jokkedk/webgrind</SEEURL>
@@ -59,10 +53,7 @@ under the cover.
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>Performance at first glance</TITLE>
     <BODY><![CDATA[
-Do not hurry John Doe, it is not arrived the time to scale yet.. 
-But - maybe - it is the case to always use some good coding practices? 
-Sure no one say us what to obay to while coding in PHP - and lucky it 
-is so. However, there are some tuning practices we can use with ease: 
+Do not hurry John Doe, it is not arrived the time to scale yet.. But - maybe - it is the case to always use some good coding practices? Sure no one say us what to obay to while coding in PHP - and lucky it is so. However, there are some tuning practices we can use with ease: 
 - Take advantage of type hints since PHP ver 7.
 - Set variable types with settype.
 - Pass and "consume" arrays by reference.
