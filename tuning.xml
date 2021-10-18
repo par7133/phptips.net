@@ -40,7 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>The oracle to my code secrets</TITLE>
     <BODY><![CDATA[
-PHP language is continuosly evolving and assimilating new functionalities becoming more fast too. Beside this it is nice to have coding good practices and profiling tools to tune your own PHP code: Webgrind is surely the tool that needs to be in your coding bag. It is a web app, written in PHP, easy to deploy and easy to understand (that is never too bad); it makes use of Xdebug under the cover.  
+PHP language is continuosly evolving and assimilating new functionalities becoming more fast too. Beside this it is nice to have good coding practices and profiling tools to tune your own PHP code: Webgrind is surely the tool that needs to be in your coding bag. It is a web app, written in PHP, easy to deploy and easy to understand (that is never too bad); it makes use of Xdebug under the cover.  
 ]]></BODY>  
     <SEE>Webgrind</SEE>  
 		<SEEURL>http://github.com/jokkedk/webgrind</SEEURL>
