@@ -4,7 +4,7 @@
 
 <xsl:output method="html" version="4"/>
 
-<!-- File name: polyfills.xsl 
+<!-- File name: oop.xsl 
 BSD 3-Clause License
 
 Copyright (c) 2021, 2024, 5 Mode
@@ -41,7 +41,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  <HTML>
 	  <HEAD>
 
-      <TITLE>PHP Tips: polyfills</TITLE>
+      <TITLE>PHP Tips: oop</TITLE>
 	  
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
      
@@ -75,7 +75,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="search-cont"><input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/>&#8201;&#8201;</div>
           
           <datalist id="liveres">
-          <xsl:for-each select="ITEM[TYPE='tip' and CAT='polyfills']">
+          <xsl:for-each select="ITEM[TYPE='tip' and CAT='oop']">
 		
 			    <xsl:sort select="ID" data-type="number" order="ascending"/>
 
@@ -99,8 +99,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="cat"><a href="/tuning.xml" class="aaa3">tuning</a></div><br class="mblonly" style="display:none;"/>
           <div class="cat"><a href="/data.xml" class="aaa3">data</a></div><br class="mblonly" style="display:none;"/>
           <div class="cat"><a href="/syntax.xml" class="aaa3">syntax</a></div><br class="mblonly" style="display:none;"/>
-          <div class="cat"><a href="/polyfills.xml" class="aaa3-selected">polyfills</a></div><br class="mblonly" style="display:none;"/>
-          <div class="cat"><a href="/oop.xml" class="aaa3">oop</a></div><br class="mblonly" style="display:none;"/>
+          <div class="cat"><a href="/polyfills.xml" class="aaa3">polyfills</a></div><br class="mblonly" style="display:none;"/>
+          <div class="cat"><a href="/oop.xml" class="aaa3-selected">oop</a></div><br class="mblonly" style="display:none;"/>
           
         </td>  
       </tr>     
@@ -114,7 +114,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <tr>
           <td class="tips-td">
             
-            <xsl:for-each select="ITEM[TYPE='tip' and CAT='polyfills']">
+            <xsl:for-each select="ITEM[TYPE='tip' and CAT='oop']">
       
             <xsl:sort select="ID" data-type="number" order="ascending"/>
       
@@ -154,7 +154,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
           <td id="tdl" class="index-td">
 
-            <xsl:for-each select="ITEM[TYPE='tip' and CAT='polyfills']">
+            <xsl:for-each select="ITEM[TYPE='tip' and CAT='oop']">
       
             <xsl:sort select="ID" data-type="number" order="ascending"/>
       
@@ -192,7 +192,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         var linkt = [];
         var linkids = [];
         
-        <xsl:for-each select="ITEM[TYPE='tip' and CAT='polyfills']">
+        <xsl:for-each select="ITEM[TYPE='tip' and CAT='oop']">
   
         <xsl:sort select="ID" data-type="number" order="ascending"/>
   
