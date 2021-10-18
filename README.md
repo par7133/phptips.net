@@ -1,2 +1,2 @@
 # phptips.net
-Tips about PHP, its usage, application, deployment and behond
+Tips about PHP, its usage, application, deployment and beyond
