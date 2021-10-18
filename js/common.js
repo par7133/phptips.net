@@ -1,3 +1,5 @@
+
+var bBurgerMenuVisible = false;
     
 $("input#q").on("keydown",function(e){
   key = e.which; 
@@ -31,6 +33,8 @@ function setFooterPos() {
 function setContent() {
   
   bodyRect = document.body.getBoundingClientRect();
+  
+  // Header
   $(".dktoponly").each(function(){
     if (bodyRect.width > 900) {
       $(this).css("display", "inline");
@@ -38,21 +42,42 @@ function setContent() {
       $(this).css("display", "none");
     }    
   });  
+  
+  // Burger Manu
+  if (bodyRect.width > 900) {
+    $(".burger-menu").css("display", "none");
+    $(".cat-list-td").css("display", "table-cell");
+  } else {
+    $(".burger-menu").css("display", "inline");
+    $(".cat-list-td").css("display", "none");
+  }   
+  
+  // Cat Menu 
   $(".mblonly").each(function(){
-    if (bodyRect.width > 660) {
+    if (bodyRect.width > 900) {
       $(this).css("display", "none");
     } else {
       $(this).css("display", "inline");
     }    
   });  
   $(".cat").each(function(){
-    if (bodyRect.width < 660) {
+    if (bodyRect.width < 900) {
       $(this).addClass("cat-mbl");
     } else {
       $(this).removeClass("cat-mbl");
     }    
   });  
+  
 }  
+
+$(".burger-menu").on("click", function(){
+  if (bBurgerMenuVisible) {
+    $(".cat-list-td").css("display", "none");
+  } else {
+    $(".cat-list-td").css("display", "table-cell");
+  }  
+  bBurgerMenuVisible = !bBurgerMenuVisible; 
+});
 
 function mymain() {
 
