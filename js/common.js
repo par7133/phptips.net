@@ -28,7 +28,35 @@ function setFooterPos() {
  }
 }
 
+function setContent() {
+  
+  bodyRect = document.body.getBoundingClientRect();
+  $(".dktoponly").each(function(){
+    if (bodyRect.width > 900) {
+      $(this).css("display", "inline");
+    } else {
+      $(this).css("display", "none");
+    }    
+  });  
+  $(".mblonly").each(function(){
+    if (bodyRect.width > 660) {
+      $(this).css("display", "none");
+    } else {
+      $(this).css("display", "inline");
+    }    
+  });  
+  $(".cat").each(function(){
+    if (bodyRect.width < 660) {
+      $(this).addClass("cat-mbl");
+    } else {
+      $(this).removeClass("cat-mbl");
+    }    
+  });  
+}  
+
 function mymain() {
+
+ setContent();
 
  setTimeout("setFooterPos()", 1000);
 
@@ -36,8 +64,10 @@ function mymain() {
  $("#content-cont").css("height", (parseInt(window.innerHeight) - 118) + "px");     
 
 } 
-           
-mymain();
+
+window.addEventListener("load", function() {
+  mymain();
+});
 
 window.addEventListener("resize", function() {
   mymain();
