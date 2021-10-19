@@ -138,7 +138,7 @@ All of us feel fantastic making great programming. But for one reason or the oth
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>Null coalescing is yet your friend</TITLE>
     <BODY><![CDATA[      
-Undubtly PHP function isset() miss a default value when all of us are searching to add it to its implementation.... Indeed it is quite *simple* to write our own *simple* custom function but let's do it more *simple*, the mysterious null coaleshing operator comes really in handy for our purpose:
+Undubtly PHP function isset() miss a default value when all of us are searching to add it to its implementation.. Indeed it is quite *simple* to write our own *simple* custom function but let's do it more *simple*, the mysterious null coaleshing operator comes really in handy for our purpose:
 
 echo $var1 ?? $var2;    
 ]]></BODY>  
