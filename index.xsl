@@ -105,9 +105,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </td>  
       </tr>     
       <tr>         
-       <td id="content-td" style="width:100%;height:100%;boder:1px solid red;">
+       <td id="content-td">
       
-        <div id="content-cont" style="height:100%;overflow-y:scroll;">
+        <div id="content-cont">
       
         <table class="content-table">     
         <tr>
