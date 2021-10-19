@@ -1,5 +1,5 @@
 body {
-  background-color:#FFFFFF; 
+  background-color:#e7e7e7; 
   margin:0;
   font-family: Verdana, Sans, Helvetica;
   font-size: 14px;
@@ -142,11 +142,15 @@ a {
   border-top: 1px dotted #f0f0f0;
 }
 .index-td {
+  background-color: #FFFFFF;
   width:26%; 
   text-align:left; 
   padding-top:10px; 
   vertical-align:top; 
   min-width: 400px;
+}
+.index-empty-td {
+  background-color: #FFFFFF;
 }
 .index-ve-cont {
   padding-top:8px;
