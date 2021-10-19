@@ -71,12 +71,12 @@ a {
 }
 .cat-mbl:hover {
   background-color:gray;
-  color: orange;
+  color: #FFFFFF;
 }
 .cat-mbl:hover a {
   background-color:gray;
   text-decoration:underline;
-  color: orange;
+  color: #FFFFFF;
 }
 .cat-list-td {
   width:100%; 
