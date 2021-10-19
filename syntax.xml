@@ -68,7 +68,7 @@ echo $var1 ?? $var2;
     <DATE>Tue October 19th 2021</DATE>
     <TITLE>'Frictionless coding' mantra</TITLE>
     <BODY><![CDATA[      
-Having a rich programming language at your disposal and the freedom to invent and coding by our own genius and pragmatism.. let’s say that sometimes could be deleterious. Especially when you are building software with others, in a company, on Github the rigor of some coding standards is something necessary to facilitate the shared work. About PHP, a a cross-committee of the developer community time-to-time update a set of coding standard recommendations named here PSR. Rely on PSR coding standards, especially the more generic PSR-1 and PSR-2, is something so *normal* that also IDEs like NetBeans have software facilities release to help enforcing their usage. 
+Having a rich programming language at your disposal and the freedom to invent and coding by our own genius and pragmatism.. let’s say that sometimes could be deleterious. Especially when you are building software with others, in a company, on Github the rigor of some coding standards is something necessary to facilitate the shared work. About PHP, a a cross-committee of the developer community time-to-time update a set of coding standard recommendations named here PSR. Rely on PSR coding standards, especially the more generic PSR-1 and PSR-2, is something so *normal* that also IDEs like NetBeans have software facilities released to help enforcing their usage. 
 
 Definitely have a look to the PSR coding recommendations: 
 ]]></BODY>  
