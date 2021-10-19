@@ -1,5 +1,9 @@
 
 var bBurgerMenuVisible = false;
+
+function openLink(href, target) {
+  window.open(href, target);
+}
     
 $("input#q").on("keydown",function(e){
   key = e.which; 
