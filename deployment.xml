@@ -40,7 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <DATE>Thu October 14th 2021</DATE>
     <TITLE>Initialization: one file, easy life</TITLE>
     <BODY><![CDATA[
-Having wrote also just a small router for your web app you remain to decide where to initialize all your web app const, classes, etc. There is no better way than including an ad-hoc init.inc file where to set all the needed resources, initialize session, cache, error handling, etc.
+Having wrote also just a small router for your web app you remain to decide where to initialize all your web app. There is no better way than including an ad-hoc init.inc file where to set all the needed resources, initialize session, cache, error handling, etc.
 ]]></BODY>    
     <SEE/>  
 		<SEEURL/>
