@@ -40,7 +40,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <DATE>Thu October 14th 2021</DATE>
     <TITLE>Directory separation</TITLE>
     <BODY><![CDATA[
-It is good a practice to separate the resources managed by the web server from all the other scripts, .inc or whatever can remain private to the application. Basically, you can quitely set a Public dir with your php router (usually the index.php file) and the static content of your web app; while in the Private dir you are going to set all the rest of your web app, that you will go to include through the router or other mechanism.
+It is good a practice to separate the resources managed by the web server from all the other scripts, .inc or whatever can remain private to the application. Basically, you can quitely set a Public dir with your php router (usually the index.php file) and the static content of your web app; while in the Private dir you are going to set all the rest of your web app (that you will go to include through the router or other mechanism).
 ]]></BODY>  
     <SEE/>  
 		<SEEURL/>
