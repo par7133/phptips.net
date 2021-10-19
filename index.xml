@@ -92,7 +92,7 @@ PHP language is continuosly evolving and assimilating new functionalities becomi
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>As simple as SimpleXML</TITLE>
     <BODY><![CDATA[
-XML is the optimal approach to small quantity of data and nowadays manipulable in many ways, in PHP too. You can read an XML with file() and parse it by your own logic, with the mere help of reg expressions and string functions - umh. You can read an XML file and parsing it by events - umh. Finally, SimpleXML comes in handy letting us access an XML in object and properties fashion like in this way:
+XML is the optimal approach to small quantity of data and nowadays manipulable in many ways, in PHP too. You can read an XML with file() and parse it by your own logic, with the mere help of reg expressions and string functions, uh? You can read an XML file and parsing it by events, uh? Finally, SimpleXML comes in handy letting us access an XML in object and properties fashion like in this way:
 
 echo $content->tip[0]->body;  
 ]]></BODY>  
