@@ -206,4 +206,20 @@ Definitely have a look to the PSR coding recommendations:
     <CAT>syntax</CAT>
 		<INDEX>12</INDEX>
 	</ITEM>
+  <ITEM>
+    <ID>13</ID>
+    <DATE>Tue October 19th 2021</DATE>
+    <TITLE>Records of network casualties</TITLE>
+    <BODY><![CDATA[      
+A certain number of advanced PHP network instructions exist almost in an uncovered fashion: as it is maybe not so good to advertise them as it is not so common to find yourself in the need of them. However, when things get hard to test and find out it could happen that working with dns records take in less variables - ie. you are dealing with an host under load balancing or sites available in different geographical regions). In this cases checkdnsrr() or dns_get_record(), with different php support and implementation, come in handy:
+
+$host = “phptips.net”;
+print_r(dns_get_record($host, DNS_A));
+]]></BODY>  
+    <SEE/>  
+		<SEEURL/>
+		<TYPE>tip</TYPE>
+    <CAT>net</CAT>
+		<INDEX>13</INDEX>
+	</ITEM>
 </CONTENT>
