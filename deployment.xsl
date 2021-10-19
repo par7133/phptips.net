@@ -109,7 +109,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
         <div id="content-cont" style="height:100%;overflow-y:scroll;">
       
-        <table style="border:0;margin:0;padding:0;width:100%;height:1900px;">     
+        <table class="content-table">     
         <tr>
           <td class="tips-td">
             
