@@ -89,8 +89,8 @@ function mymain() {
 
  setTimeout("setFooterPos()", 1000);
 
- $("#content-td").css("height", (parseInt(window.innerHeight) - 118) + "px");
- $("#content-cont").css("height", (parseInt(window.innerHeight) - 118) + "px");     
+ $("#content-td").css("height", (parseInt(window.innerHeight) - 100) + "px");
+ $("#content-cont").css("height", (parseInt(window.innerHeight) - 100) + "px");     
 
 } 
 
