@@ -61,7 +61,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <BODY>
       
       <table border="0" width="100%" height="100%" style="border:0;margin:0;">
-      <tr>
+      <tr style="height:60px;">
         <td class="header-td" colspan="3">
         
           <div class="burger-menu" style="display:none;"><img src="./res/burger-menu2.png" style="width:40px"/></div>
