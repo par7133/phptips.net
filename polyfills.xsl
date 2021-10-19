@@ -173,7 +173,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           </td>
           
-          <td width="4%">
+          <td width="4%" class="index-empty-td">
             &#8201;
           </td>  
         </tr>
