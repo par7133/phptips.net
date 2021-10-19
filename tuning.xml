@@ -53,7 +53,7 @@ PHP language is continuosly evolving and assimilating new functionalities becomi
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>Performance at first glance</TITLE>
     <BODY><![CDATA[
-Do not hurry John Doe, it is not arrived the time to scale yet.. But - maybe - it is the case to always use some good coding practices? Sure no one say us what to obay to while coding in PHP - and lucky it is so. However, there are some tuning practices we can use with ease: 
+Do not hurry John Doe, it is not arrived the time to scale yet.. However, there are some tuning practices we can use with ease: 
 - Take advantage of type hints since PHP ver 7.
 - Set variable types with settype.
 - Pass and "consume" arrays by reference.
