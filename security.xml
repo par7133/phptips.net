@@ -74,4 +74,17 @@ Must be that session cookies are too sweet, this explains why Javascript persist
     <CAT>security</CAT>
 		<INDEX>3</INDEX>
 	</ITEM>
+  <ITEM>
+    <ID>15</ID>
+    <DATE>Tue October 19th 2021</DATE>
+    <TITLE>All the streets take to Rome</TITLE>
+    <BODY><![CDATA[      
+Honestly one thing is to exaggerate with best practices and one thing is to not care at all, that is true about tuning, that is true about security. Probably the right approach resides still in the middle. An other consideration comes about PHP bugs and hacking, but it is out of the scope of this *tip*. However, if you want to close all in a *safe*, PHP supplies you with a last A+ *pill*: the php.ini open_basedir directive. Setting *open_basedir* with the root path of your web app you force eg. PHP includes or fopen() to handle only scripts contained in it.
+]]></BODY>  
+    <SEE/>
+		<SEEURL/>
+		<TYPE>tip</TYPE>
+    <CAT>security</CAT>
+		<INDEX>4</INDEX>
+	</ITEM>  
 </CONTENT>
