@@ -107,7 +107,7 @@ echo $content->tip[0]->body;
     <DATE>Sat October 16th 2021</DATE>
     <TITLE>Performance at first glance</TITLE>
     <BODY><![CDATA[
-Do not hurry John Doe, it is not arrived the time to scale yet.. However, there are some tuning practices we can use with ease: 
+Do not hurry John Doe, it is not arrived the time to scale yet.. However, there are some tuning practices we can always use with ease: 
 - Take advantage of type hints since PHP ver 7.
 - Set variable types with settype.
 - Pass and "consume" arrays by reference.
