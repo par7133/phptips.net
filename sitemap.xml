@@ -2,37 +2,47 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
   <url>
     <loc>http://phptips.net</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://phptips.net/deployment</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://phptips.net/security</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://phptips.net/tuning</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://phptips.net/data</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>  
   <url>
     <loc>http://phptips.net/syntax</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>http://phptips.net/polyfills</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
   </url>  
+  <url>
+    <loc>http://phptips.net/oop</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://phptips.net/net</loc>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>
