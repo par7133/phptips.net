@@ -64,11 +64,11 @@ a {
   cursor: pointer;
 }
 .cat-mbl {
-  width:44%;
+  width:42%;
   padding:15px;
   background-color:#4c5d8d;
   margin-bottom:5px;
-  margin-right:10px;
+  margin-right:0.5px;
 }
 .cat-mbl:hover {
   background-color:gray;
