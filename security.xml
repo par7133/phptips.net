@@ -66,7 +66,7 @@ When you are going to write some code that needs to be *recognized* and *served*
     <DATE>Tue October 19th 2021</DATE>
     <TITLE>Clients like cookies</TITLE>
     <BODY><![CDATA[      
-Must be that session cookies are too sweet, this explains why Javascript persists to like them a lot.. PHP has a number of php.ini settings to protect session cookies and among these session.use_strict_mode and session.cookie_httponly are some of the more important ones. *Strict mode* forces the session module to check for session IDs initialized by the module itself and not user generated. *Http only* forbids the cookies access by Javascript to the compatible browsers.
+Must be that session cookies are too sweet, this explains why Javascript persists to like them a lot.. PHP has a number of php.ini settings to protect session and among these session.use_strict_mode and session.cookie_httponly are some of the more important ones. *Strict mode* forces the session module to check for session IDs initialized by the module itself and not user generated. *Http only* forbids the cookies access by Javascript to the compatible browsers.
 ]]></BODY>  
     <SEE>Securing Session INI Settings</SEE>  
 		<SEEURL>https://www.php.net/manual/en/session.security.ini.php</SEEURL>
