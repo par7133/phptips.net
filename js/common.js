@@ -61,7 +61,7 @@ function setContent() {
     if (bodyRect.width > 1000) {
       $(this).css("display", "none");
     } else {
-      $(this).css("display", "inline");
+      //$(this).css("display", "inline");
     }    
   });  
   $(".cat").each(function(){
