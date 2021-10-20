@@ -266,7 +266,7 @@ When you are going to develop a web application tailored for a broad audience us
     <DATE>Wed October 20th 2021</DATE>
     <TITLE>Yes, strict better than wrong results</TITLE>
     <BODY><![CDATA[      
-Playing around your code with strings, mainly if you are using them as a shortcut to arrays in your configuration file.. you can break into a little semantical problem of functions like stripos(): a 0 position of the needle in the hashtag could be evaluated as a false result. The fix using the strict the comparison operator comes in handy:
+Playing around your code with strings, mainly if you are using them as a shortcut to arrays in your configuration file.. you can break into a little semantical problem of functions like stripos(): a 0 position of the needle in the hashtag could be evaluated as a false result. The fix using the strict comparison operator comes really in handy:
 
 $bestSites = “PHPTips.net|..|”;
 
