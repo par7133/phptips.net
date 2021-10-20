@@ -71,7 +71,7 @@ a {
   margin-right:0.5%;
 }
 .cat-mbl a {
-  border-bottom: 4px solid #4c5d8d;
+  /*border-bottom: 4px solid #4c5d8d;*/
 }  
 .cat-mbl:hover {
   background-color:gray;
