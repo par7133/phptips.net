@@ -255,8 +255,8 @@ Honestly one thing is to exaggerate with best practices and one thing is to not 
     <BODY><![CDATA[      
 When you are going to develop a web application tailored for a broad audience using Unicode both on client and database side you should not forget about PHP itself. Indeed, PHP through the optional mbstring module gives at your disposal a set of functions named *multibyte string functions* that allow you to deal with unicode string with no worry. And what does it mean to you choosing a multibyte string function like mb_stripos() instead of the *standard* stripos()? It means exactly not looking at stripos() failing on unicode strings.
 ]]></BODY>  
-    <SEE/>  
-		<SEEURL/>
+    <SEE>PHP: Introduction to Multibyte strings</SEE>  
+		<SEEURL>https://www.php.net/manual/en/intro.mbstring.php</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>int</CAT>
 		<INDEX>16</INDEX>
