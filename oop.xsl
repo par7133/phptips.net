@@ -102,6 +102,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <div class="cat" onclick="openLink('/polyfills.xml','_self')"><a href="/polyfills.xml" class="aaa3">polyfills</a></div><br class="mblonly" style="display:none;"/>
           <div class="cat" onclick="openLink('/oop.xml','_self')"><a href="/oop.xml" class="aaa3-selected">oop</a></div><br class="mblonly" style="display:none;"/>
           <div class="cat" onclick="openLink('/net.xml','_self')"><a href="/net.xml" class="aaa3">net</a></div><br class="mblonly" style="display:none;"/>
+          <div class="cat" onclick="openLink('/int.xml','_self')"><a href="/int.xml" class="aaa3">int</a></div><br class="mblonly" style="display:none;"/>
           
         </td>  
       </tr>     
