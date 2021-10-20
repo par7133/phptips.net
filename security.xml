@@ -38,7 +38,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<ITEM>
     <ID>1</ID>
     <DATE>Thu October 14th 2021</DATE>
-    <TITLE>Directory separation</TITLE>
+    <TITLE>Private dir, less voyeurs</TITLE>
     <BODY><![CDATA[
 It is good a practice to separate the resources managed by the web server from all the other scripts, .inc or whatever can remain private to the application. Basically, you can quitely set a Public dir with your php router (usually the index.php file) and the static content of your web app; while in the Private dir you are going to set all the rest of your web app (that you will go to include through the router or other mechanism).
 ]]></BODY>  
@@ -55,7 +55,7 @@ It is good a practice to separate the resources managed by the web server from a
     <BODY><![CDATA[
 When you are going to write some code that needs to be *recognized* and *served* by the webserver you can write it in a *beautiful* .php extension. When, instead, you are going to write some classes or some reusable code that just needs to be *included* and *not served* to the user it is the time to write a *secret* .inc file. The point is exactly that your frontend webserver is most probably not configured to serve the .inc files. Remember that this choice is safe only when it is adopted in conjunction with a directory separation approach.
 ]]></BODY>  
-    <SEE>Directory separation</SEE>  
+    <SEE>Private dir, less voyeurs</SEE>  
 		<SEEURL>#1</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>security</CAT>
