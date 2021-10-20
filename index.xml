@@ -53,7 +53,7 @@ It is a good practice to separate the resources managed by the web server from a
     <DATE>Thu October 14th 2021</DATE>
     <TITLE>Initialization: one file, easy life</TITLE>
     <BODY><![CDATA[
-Having wrote just a small router with *Hello World*, *Back to Life*, etc.. you remain to decide where to initialize your new web application. There is no better way than including an ad-hoc init.inc file where to set all the needed resources, session, cache, error handling, etc.
+Having wrote just a small router with *Hello World*, *Back to Life*, *Iron Clothes* etc.. you remain to decide where to initialize your new web application. There is no better way than including an ad-hoc init.inc file where to set all the needed resources, session, cache, error handling, etc.
 ]]></BODY>    
     <SEE/>  
 		<SEE-URL/>
