@@ -207,7 +207,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       </script>
          
-      <script src="./js/common.js" type="text/javascript"></script>
+      <script src="../js/common.js" type="text/javascript"></script>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
