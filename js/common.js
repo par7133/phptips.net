@@ -46,8 +46,32 @@ function setContent() {
       $(this).css("display", "none");
     }    
   });  
-  
-  // Burger Manu
+
+  //$(".search-box").val(window.innerWidth);
+
+  $(".noxs").each(function(){
+    if (bodyRect.width > 1000) {
+      $(this).css("display", "inline");
+    } else {
+      $(this).css("display", "none");
+    }    
+  });  
+ 
+  if (bodyRect.width < 800) {
+    $(".search-td").css("min-width","300px");
+    $(".tips-td").css("width","65%");
+    $(".index-td").css("width","35%");
+    $(".index-empty-td").css("width","0%");
+    $(".index-td").css("min-width","0px");
+  } else {
+    $(".search-td").css("min-width","");
+    $(".tips-td").css("width","");
+    $(".index-td").css("width","");
+    $(".index-td").css("min-width","");
+    $(".index-empty-td").css("width","");
+  }
+    
+  // Burger Menu
   if (bodyRect.width > 1000) {
     $(".burger-menu").css("display", "none");
     $(".cat-list-tr").css("display", "table-row");
