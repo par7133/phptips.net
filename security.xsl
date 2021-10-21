@@ -62,17 +62,20 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
       <table class="main-table">
       <tr>
-        <td class="header-td" colspan="3">
+        <td class="header-td">
         
           <div class="burger-menu" style="display:none;"><img src="./res/burger-menu2.png" style="width:40px"/></div>
         
           <div class="header-logo"><a href="/" class="header-aaa"><span style="color:black;"><i>php</i></span><span style="color:red; font-size:20px;">tips</span></a></div>
-          <div class="header-link"><a href="https://github.com/par7133/phptips.net/tree/main/downloads" class="header-aaa">Downloads</a></div>
+          <div class="header-link noxs"><a href="https://github.com/par7133/phptips.net/tree/main/downloads" class="header-aaa">Downloads</a></div>
           <div class="header-link dktoponly"><a href="http://github.com/par7133/phptips.net/discussions" class="header-aaa">Talk</a></div>
           <div class="header-link dktoponly"><a href="http://github.com/par7133/phptips.net" class="header-aaa">Join in</a></div>
           <div class="header-link dktoponly"><a href="mailto:info@phptips.net" class="header-aaa">Feedback</a></div>
+
+        </td>   
+        <td class="search-td">
           
-          <div class="search-cont"><input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/>&#8201;&#8201;</div>
+          <input id="q" list="liveres" type="text" class="search-box" placeholder="search" maxlength="30"/>&#8201;&#8201;
           
           <datalist id="liveres">
           <xsl:for-each select="ITEM[TYPE='tip' and CAT='security']">
@@ -90,8 +93,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>   
       </tr>
+      
       <tr class="cat-list-tr">
-        <td class="cat-list-td" colspan="3">
+        <td class="cat-list-td" colspan="2">
           
           <div class="cat" onclick="openLink('/','_self')"><a href="/" class="aaa3">all</a></div><br class="mblonly" style="display:none;"/>
           <div class="cat" onclick="openLink('/deployment.xml','_self')"><a href="/deployment.xml" class="aaa3">deployment</a></div><br class="mblonly" style="display:none;"/>
@@ -106,8 +110,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           
         </td>  
       </tr>     
+      
       <tr>
-        <td id="content-td">
+        <td id="content-td" colspan="2">
       
         <div id="content-cont">
 
