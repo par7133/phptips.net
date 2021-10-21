@@ -83,7 +83,7 @@ Definitely have a look to the PSR coding recommendations:
     <DATE>Wed October 20th 2021</DATE>
     <TITLE>Being strict better than wrong</TITLE>
     <BODY><![CDATA[      
-Playing around your code with strings, mainly if you are using them as a shortcut to arrays in your configuration file.. you can break into a little semantical problem of functions like stripos(): a 0 position of the needle in the hashtag could be evaluated as a false result. The fix using the strict comparison operator comes really in handy:
+Playing around your code with strings (mainly if you are using them as a shortcut for arrays in your configuration file..) you can break into a little semantical problem of functions like stripos(): a 0 position of the needle in the hashtag could be evaluated as a false result. The fix using the strict comparison operator comes really in handy:
 
 $bestSites = “PHPTips.net|..|”;
 
