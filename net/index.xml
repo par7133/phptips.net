@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<!-- File name: index.xml (net) 
+BSD 3-Clause License
+
+Copyright (c) 2021, 2024, 5 Mode
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?xml-stylesheet type="text/xsl" href="net.xsl"?>
+
+<CONTENT>
+  <ITEM>
+    <ID>13</ID>
+    <DATE>Tue October 19th 2021</DATE>
+    <TITLE>Records of network casualties</TITLE>
+    <BODY><![CDATA[      
+A certain number of advanced PHP network instructions exist almost in an uncovered fashion: as it is not good to advertise them, as it is not common to find ourself in the need of them. However, when things get hard to test and find out it could happen that working with dns records takes in less variables - ie. you are dealing with an host under load balancing or sites available in different geographical regions). In this cases checkdnsrr() or dns_get_record(), with different php support and implementation, come in handy:
+
+$host = “phptips.net”;
+print_r(dns_get_record($host, DNS_A));
+]]></BODY>  
+    <SEE/>  
+		<SEEURL/>
+		<TYPE>tip</TYPE>
+    <CAT>net</CAT>
+		<INDEX>13</INDEX>
+	</ITEM>
+</CONTENT>

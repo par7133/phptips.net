@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<!-- File name: index.xml (data) 
+BSD 3-Clause License
+
+Copyright (c) 2021, 2024, 5 Mode
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+
+<CONTENT>
+	<ITEM>
+    <ID>5</ID>
+    <DATE>Sat October 16th 2021</DATE>
+    <TITLE>As simple as SimpleXML</TITLE>
+    <BODY><![CDATA[
+XML is the optimal approach to small quantity of data and nowadays manipulable in many ways, in PHP too. You can read an XML with file() and parse it by your own logic, with the mere help of reg expressions and string functions, uh? You can read an XML file and parsing it by events, uh? Finally, SimpleXML comes in handy letting us access an XML in object and properties fashion like in this way:
+
+echo $content->tip[0]->body;  
+]]></BODY>  
+    <SEE>Basic SimpleXML usage</SEE>  
+		<SEEURL>http://php.net/manual/en/simplexml.examples-basic.php</SEEURL>
+		<TYPE>tip</TYPE>
+    <CAT>data</CAT>
+		<INDEX>1</INDEX>
+	</ITEM>
+</CONTENT>
