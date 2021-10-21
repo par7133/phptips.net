@@ -253,7 +253,7 @@ Honestly one thing is to exaggerate with best practices and one thing is to not 
     <DATE>Wed October 20th 2021</DATE>
     <TITLE>Unicode call to Multibyte</TITLE>
     <BODY><![CDATA[      
-When you are going to develop a web application tailored for a broad audience, using Unicode, you should not forget about PHP itself. Indeed, PHP through the optional mbstring module gives at your disposal a set of functions named *multibyte string functions* that allow you to deal with unicode string with ease. And what does it mean to you choosing a multibyte string function like mb_stripos() instead of the *standard* stripos()? It means exactly not looking at stripos() failing on unicode strings.
+When we are going to develop a web application tailored for a broad audience, using Unicode, we should not forget about PHP itself. Indeed, PHP through the optional mbstring module gives at our disposal a set of functions named *multibyte string functions* that allow us to deal with unicode string with ease. And what does it mean to us choosing a multibyte string function like mb_stripos() instead of the *standard* stripos()? It means exactly not looking at stripos() failing on unicode strings.
 ]]></BODY>  
     <SEE>PHP: Introduction to Multibyte strings</SEE>  
 		<SEEURL>https://www.php.net/manual/en/intro.mbstring.php</SEEURL>
