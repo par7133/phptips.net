@@ -66,10 +66,10 @@ Do not hurry John Doe, it is not arrived the time to scale yet.. However, there 
     <CAT>tuning</CAT>
 		<INDEX>2</INDEX>
 	</ITEM>  
-    <ITEM>
+  <ITEM>
     <ID>18</ID>
     <DATE>Fri October 22th 2021</DATE>
-    <TITLE>A performing PM</TITLE>
+    <TITLE>A performing FPM</TITLE>
     <BODY><![CDATA[      
 The old but safest solution to run PHP by the Apache SAPI mod_php module seems to have been abandoned by the most. In fact, PHP now comes supplied in its package (on installations with —enable-fpm) with PHP-FPM, an high configurable and high performing FastCGI Process Manager. PHP-FPM has different settings but mainly can be configured to run in static (fastest response, but resources consuming), dynamic (fast response, process friendly) or on demand mode (slower response, resource friendly). Have a look to the following link for all tunable settings: 
 ]]></BODY>  
@@ -78,5 +78,18 @@ The old but safest solution to run PHP by the Apache SAPI mod_php module seems t
 		<TYPE>tip</TYPE>
     <CAT>tuning</CAT>
 		<INDEX>3</INDEX>
+	</ITEM>
+  <ITEM>
+    <ID>19</ID>
+    <DATE>Fri October 22th 2021</DATE>
+    <TITLE>A performing Apache</TITLE>
+    <BODY><![CDATA[      
+The Event Multi-Processing Module (MPM) of Apache allows us to tune the behavior of httpd responding simultaneously to more requests by the listeners threads, and set how to free up threads to serve new requests. Please note that in the recent Apache installations the tuned “mpm_event_module” doesn’t figure as a physical file but as a *static* module. Have a look to the following link for all possible settings:
+]]></BODY>  
+    <SEE>Apache2 and php fpm performance optimization</SEE>  
+		<SEEURL>https://medium.com/@sbuckpesch/apache2-and-php-fpm-performance-optimization-step-by-step-guide-1bfecf161534</SEEURL>
+		<TYPE>tip</TYPE>
+    <CAT>tuning</CAT>
+		<INDEX>4</INDEX>
 	</ITEM>
 </CONTENT>
