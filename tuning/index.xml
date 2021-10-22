@@ -71,7 +71,7 @@ Do not hurry John Doe, it is not arrived the time to scale yet.. However, there 
     <DATE>Fri October 22th 2021</DATE>
     <TITLE>A performing PM</TITLE>
     <BODY><![CDATA[      
-The old but safest solution to run PHP by the Apache SAPI mod_php module seems to have been abandoned by the most. In fact, PHP now comes supplied in its package (on installation —enable-fpm) with PHP-FPM, an high configurable and high performing FastCGI Process Manager. PHP PM has different settings but mainly can be configured to run in static (fastest response, but resources consuming), dynamic (fast response, process friendly) or on demand mode (slower response, resource friendly). Have a look to the following link for all tunable settings: 
+The old but safest solution to run PHP by the Apache SAPI mod_php module seems to have been abandoned by the most. In fact, PHP now comes supplied in its package (on installations with —enable-fpm) with PHP-FPM, an high configurable and high performing FastCGI Process Manager. PHP PM has different settings but mainly can be configured to run in static (fastest response, but resources consuming), dynamic (fast response, process friendly) or on demand mode (slower response, resource friendly). Have a look to the following link for all tunable settings: 
 ]]></BODY>  
     <SEE>An Introduction to PHP-FPM Tuning</SEE>  
 		<SEEURL>https://tideways.com/profiler/blog/an-introduction-to-php-fpm-tuning</SEEURL>
