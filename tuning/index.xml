@@ -103,7 +103,7 @@ Nginx is a light and high performant web server that can be used as reversed pro
 aio threads;
 
 # Reuseport Socket Option (server scope)
-listen 80 reuseport
+listen 80 reuseport;
 ]]></BODY>  
     <SEE>Nginx Performance Tuning – Tips and Tricks</SEE>  
 		<SEEURL>https://www.nginx.com/blog/performance-tuning-tips-tricks/</SEEURL>
