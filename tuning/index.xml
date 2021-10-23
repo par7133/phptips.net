@@ -105,7 +105,7 @@ aio threads;
 # Reuseport Socket Option (server scope)
 listen 80 reuseport
 ]]></BODY>  
-    <SEE>Nginx Performance Tuning – Tips & Tricks</SEE>  
+    <SEE>Nginx Performance Tuning – Tips and Tricks</SEE>  
 		<SEEURL>https://www.nginx.com/blog/performance-tuning-tips-tricks/</SEEURL>
 		<TYPE>tip</TYPE>
     <CAT>tuning</CAT>
