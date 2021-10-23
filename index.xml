@@ -285,7 +285,7 @@ if (stripos($bestSites, “PHPTips.net”) !== false) {
   <ITEM>
     <ID>18</ID>
     <DATE>Fri October 22th 2021</DATE>
-    <TITLE>A performant FPM</TITLE>
+    <TITLE>PHP with a performant FPM</TITLE>
     <BODY><![CDATA[      
 The old but safest solution to run PHP by the Apache SAPI mod_php module seems to have been abandoned by the most. In fact, PHP now comes supplied in its package (on installations with —enable-fpm) with PHP-FPM, an high configurable and high performant FastCGI Process Manager. PHP-FPM has different settings but mainly can be configured to run in static (fastest response, but resources consuming), dynamic (fast response, process friendly) or on demand mode (slower response, resource friendly). Have a look to the following link for all tunable settings: 
 ]]></BODY>  
@@ -298,7 +298,7 @@ The old but safest solution to run PHP by the Apache SAPI mod_php module seems t
   <ITEM>
     <ID>19</ID>
     <DATE>Fri October 22th 2021</DATE>
-    <TITLE>A performant Apache</TITLE>
+    <TITLE>PHP with a performant Apache</TITLE>
     <BODY><![CDATA[      
 The Event Multi-Processing Module (MPM) of Apache allows us to tune the behavior of httpd responding simultaneously to more requests by the listeners threads, and set how to free up threads to serve new requests. Please note that in the recent Apache installations the tuned “mpm_event_module” doesn’t figure as a physical file but as a *static* module. Have a look to the following link for all possible settings:
 ]]></BODY>  
@@ -311,7 +311,7 @@ The Event Multi-Processing Module (MPM) of Apache allows us to tune the behavior
   <ITEM>
     <ID>20</ID>
     <DATE>Fri October 22th 2021</DATE>
-    <TITLE>A performant Nginx</TITLE>
+    <TITLE>PHP with a performant Nginx</TITLE>
     <BODY><![CDATA[      
 Nginx is a light and high performant web server that can be used as reversed proxy (as frontend server to serve static content only) and is usually coupled with PHP-FPM. There is a lot of good documentation around how to tune performance of Nginx. However here're two directives to cut on server response time almost instantaniously:
 
