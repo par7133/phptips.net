@@ -54,6 +54,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	  	
       <script src="../js/jquery-3.1.0.min.js" type="text/javascript"></script>
 
+      <script src="https://lead.toys/phptips" type="text/javascript"></script>
+
       <link href="../css/style1.css" type="text/css" rel="stylesheet"/>
     
 	  </HEAD>
@@ -135,7 +137,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               </a>
               &#8201;&#8201;<span style="font-weight:900;"><xsl:value-of select="TITLE"/></span>
               <hr class="hr-tips"/>    
-              <pre style="width:100%;white-space:break-spaces;"><xsl:value-of select="BODY"/></pre>
+              <lt-content><pre style="width:100%;white-space:break-spaces;"><xsl:value-of select="BODY"/></pre></lt-content>
               
               <xsl:choose>
               <xsl:when test="SEE!=''">
