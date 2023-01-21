@@ -190,6 +190,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </tr>
       </table>
       
+<div id="originsDisplay">
+      <br>
+       &nbsp;<span class="originLabel">Coding:</span>&nbsp;Italy</span><br>         
+       &nbsp;<span class="originLabel">Server:</span>&nbsp;United States&nbsp;<br>
+       &nbsp;<span class="originLabel"><a href="http://metrica.yandex.com" class="bbb">Metrics</a>:</span>&nbsp;Russia&nbsp;<br>
+      <br>
+</div>   	    
+	    
       <div id="footerCont">&#8201;</div>
       <div id="footer"><span style="background:#FFFFFF;opacity:0.7;">&#8201;&#8201;<a class="aaa" href="/dd.html">Disclaimer</a>.&#8201;&#8201;A <a class="aaa" href="http://5mode.com">5 Mode</a> project and <a class="aaa" href="http://demo.5mode.com">WYSIWYG</a> system. Some rights reserved.</span></div>
 
@@ -211,6 +219,27 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          
       <script src="../js/common.js" type="text/javascript"></script>
 
+<script>	
+	
+function setOriginsPos() {
+  h=parseInt(window.innerHeight);
+  w=parseInt(window.innerWidth);
+  mytop = parseInt(window.innerHeight - ($("#originsDisplay").height() + 60));
+  $("#originsDisplay").css("top", mytop+"px");
+  setTimeout("hideOrigins()",15000);
+}
+
+function hideOrigins() {
+  $("#originsDisplay").css("visibility","hidden");
+}  
+
+window.addEventListener("load", function(){
+  setTimeout("setOriginsPos()", 500);
+  $("#originsDisplay").show();
+});	
+
+</script>	
+	
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
 <![CDATA[
