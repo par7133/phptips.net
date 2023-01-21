@@ -192,7 +192,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       
 <div id="originsDisplay">
       <br/>
-       &#8201;<span class="originLabel">Coding:</span>&#8201;Italy</span><br/>         
+       &#8201;<span class="originLabel">Coding:</span>&#8201;Italy<br/>         
        &#8201;<span class="originLabel">Server:</span>&#8201;United States&#8201;<br/>
        &#8201;<span class="originLabel"><a href="http://metrica.yandex.com" class="bbb">Metrics</a>:</span>&#8201;Russia&#8201;<br/>
       <br/>
