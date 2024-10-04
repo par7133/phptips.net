@@ -235,7 +235,7 @@ function hideOrigins() {
 
 window.addEventListener("load", function(){
   setTimeout("setOriginsPos()", 500);
-  $("#originsDisplay").show();
+  //$("#originsDisplay").show();
 });	
 
 </script>	
