@@ -190,7 +190,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       </tr>
       </table>
       
-<div id="originsDisplay">
+<div id="originsDisplay" style="display:none;">
       <br/>
        &#8201;<span class="originLabel">Coding:</span>&#8201;Italy<br/>         
        &#8201;<span class="originLabel">Server:</span>&#8201;United States&#8201;<br/>
